@@ -1,0 +1,1228 @@
+
+html {
+	overflow-y: scroll !important;
+
+}
+/* here you can put your own css to customize and override the theme */
+
+.display-none,
+.display-hide {
+  display: none;
+}
+
+/***
+Close icon used for modal dialog and other UI element close buttons
+***/
+.close {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 0px;
+  width: 9px;
+  height: 9px;
+  background-repeat: no-repeat !important;
+  text-indent: -10000px;
+  outline: none;
+  background-image: url("../img/remove-icon-small.png") !important;
+}
+
+
+.page_active
+{
+    color:#45b3a6;
+}
+
+/*************************
+   Toppers
+*************************/
+
+.toppers_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+
+
+.toppers_banner_inner_img {
+	width: 530px;
+	height: 504px;
+	float: right;
+	background:url(../img/sliders/revolution/toppers-big.jpg) no-repeat bottom;
+}
+.toppers_banner_inner_text {
+	width: 51%;
+	height: auto;
+	float: left;
+	margin-top:40px;
+}
+.toppers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 90px;
+	line-height: 35px;
+}
+.toppers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.toppers-border-right{ 
+    border-right:#ddd solid 1px;
+	margin-top:45px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	}
+
+.toppers-border-right2{ 
+    border-right:#ddd solid 1px;
+	margin-top:45px;
+	height:570px;
+	float:left;
+	margin-right: 20px;
+	}
+	
+	/*************************
+   Bulk Emails Inner
+*************************/
+.bulk-emails-banner-inner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.bulk-emails-banner-inner-img{
+	background:url(../img/send-bulk-emails-ats-big.jpg) no-repeat left; 
+	float:left;
+	width:500px;
+	height:504px;
+	}	
+.bulk-emails-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:52%;
+	}
+.bulk-emails-banner-inner-text h1 {
+	font-size: 33px;
+	padding-top: 150px;
+	color: #000;
+	line-height:40px;
+	
+}
+.bulk-emails-banner-inner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Social Networks Inner
+*************************/
+.social-networks-banner-inner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.social-networks-banner-inner-img{
+	background:url(../img/social-media-for-recruitment-big.jpg) no-repeat left; 
+	float:left;
+	width:500px;
+	height:504px;
+	}	
+.social-networks-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:52%;
+	}
+.social-networks-banner-inner-text h1 {
+	font-size: 36px;
+	padding-top: 120px;
+	color: #000;
+	line-height:45px;
+}
+.social-networks-banner-inner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+ @media only screen and (min-width: 992px) and (max-width: 1280px) {
+/*********************
+  Bulk Emails Inner
+*********************/
+.bulk-emails-banner-inner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+.bulk-emails-banner-inner-img{
+	background:url(../img/send-bulk-emails-ats-big1.jpg) no-repeat left; 
+	float:left;
+	width:424px;
+	height:504px;
+	}	
+.bulk-emails-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.bulk-emails-banner-inner-text h1 {
+	font-size: 34px;
+	padding-top: 120px;
+	color: #000;
+	line-height:40px;
+}
+.bulk-emails-banner-inner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+  Social Networks Inner
+*********************/
+.social-networks-banner-inner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+.social-networks-banner-inner-img{
+	background:url(../img/social-media-for-recruitment-big1.jpg) no-repeat left; 
+	float:left;
+	width:424px;
+	height:504px;
+	}	
+.social-networks-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.social-networks-banner-inner-text h1 {
+	font-size: 36px;
+	padding-top: 120px;
+	color: #000;
+	line-height:45px;
+}
+.social-networks-banner-inner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+/*************************
+   Toppers
+*************************/
+
+.toppers_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+
+
+.toppers_banner_inner_img {
+	width: 415px;
+	height: 450px;
+	float: right;
+	background:url(../img/sliders/revolution/toppers-med.jpg) no-repeat bottom;
+}
+.toppers_banner_inner_text {
+	width: 53%;
+	height: auto;
+	float: left;
+}
+.toppers_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 90px;
+	line-height: 35px;
+}
+.toppers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.toppers-border-right{ 
+    border-right:#ddd solid 1px;
+	margin-top:45px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	}
+
+.toppers-border-right2{ 
+    border-right:#ddd solid 1px;
+	margin-top:45px;
+	height:570px;
+	float:left;
+	margin-right: 20px;
+	}
+
+ }
+ 
+ 
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*********************
+  Bulk Emails Inner
+*********************/
+.bulk-emails-banner-inner{
+	background:#fff; 
+	min-height:400px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.bulk-emails-banner-inner-img{
+	background:url(../img/send-bulk-emails-ats-med.jpg) no-repeat left; 
+	float:left;
+	width:332px;
+	height:395px;
+	}	
+.bulk-emails-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.bulk-emails-banner-inner-text h1 {
+	font-size: 32px;
+	padding-top: 70px;
+	color: #000;
+	line-height:35px;
+}
+.bulk-emails-banner-inner-text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+
+/*********************
+  Social Networks Inner
+*********************/
+.social-networks-banner-inner{
+	background:#fff; 
+	min-height:400px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.social-networks-banner-inner-img{
+	background:url(../img/social-media-for-recruitment-med.jpg) no-repeat left; 
+	float:left;
+	width:332px;
+	height:395px;
+	}	
+.social-networks-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.social-networks-banner-inner-text h1 {
+	font-size: 30px;
+	padding-top: 70px;
+	color: #000;
+	line-height:35px;
+}
+.social-networks-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*************************
+   Toppers
+*************************/
+
+.toppers_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+
+
+.toppers_banner_inner_img {
+	width: 365px;
+	height: 450px;
+	float: right;
+	background:url(../img/sliders/revolution/toppers-med2.jpg) no-repeat bottom;
+}
+.toppers_banner_inner_text {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.toppers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 90px;
+	line-height: 45px;
+}
+.toppers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.toppers-border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	}
+
+.toppers-border-right2{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:570px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+
+ }
+ 
+  @media only screen and (min-width: 625px) and (max-width: 767px) {
+	 /*********************
+  Bulk Emails Inner
+*********************/
+.bulk-emails-banner-inner{
+	background:#fff; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.bulk-emails-banner-inner-img{
+	background:url(../img/send-bulk-emails-ats-med1.jpg) no-repeat left; 
+	float:left;
+	width:269px;
+	height:320px;
+	}	
+.bulk-emails-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.bulk-emails-banner-inner-text h1 {
+	font-size: 32px;
+	padding-top: 40px;
+	color: #000;
+	line-height:35px;
+}
+.bulk-emails-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*********************
+  Social Networks Inner
+*********************/
+.social-networks-banner-inner{
+	background:#fff; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.social-networks-banner-inner-img{
+	background:url(../img/social-media-for-recruitment-med1.jpg) no-repeat left; 
+	float:left;
+	width:269px;
+	height:320px;
+	}	
+.social-networks-banner-inner-text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.social-networks-banner-inner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.social-networks-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+ 
+	  
+ /*************************
+   Toppers
+*************************/
+
+
+.toppers_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+
+
+.toppers_banner_inner_img {
+	width: 100%;
+	height: 350px;
+	margin:auto;
+	background:url(../img/sliders/revolution/toppers-med2.jpg) no-repeat bottom;
+}
+.toppers_banner_inner_text {
+	width: 91%;
+	height: auto;
+	float: left;
+}
+.toppers_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 90px;
+	line-height: 35px;
+}
+.toppers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.toppers-border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+
+.toppers-border-right2{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:570px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+
+ }
+ 
+ 
+  @media only screen and (min-width: 480px) and (max-width: 624px) {
+	/*********************
+  Bulk Emails Inner
+*********************/
+.bulk-emails-banner-inner{
+	background:#fff; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.bulk-emails-banner-inner-img{
+	background:url(../img/send-bulk-emails-ats-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+.bulk-emails-banner-inner-text{
+	width:90%;
+	text-align:center;
+	margin-right:7%;
+	}
+	
+.bulk-emails-banner-inner-text h1 {
+    font-size: 30px;
+    padding-top: 10px;
+    color: #000;
+    line-height:35px;
+}
+.bulk-emails-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+	width:90%;
+	margin:auto;
+}
+  
+  
+  /*********************
+  Social Networks Inner
+*********************/
+.social-networks-banner-inner{
+	background:#fff; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.social-networks-banner-inner-img{
+	background:url(../img/social-media-for-recruitment-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+.social-networks-banner-inner-text{
+	width:90%;
+	text-align:center;
+	margin-right:7%;
+	}
+	
+.social-networks-banner-inner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.social-networks-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+	width:90%;
+	margin:auto;
+}
+
+    
+	  
+	 /*************************
+   Toppers
+*************************/
+
+.toppers_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+
+
+.toppers_banner_inner_img {
+	width: 100%;
+	height: 360px;
+	background:url(../img/sliders/revolution/toppers-med2.jpg) no-repeat center;
+	margin:auto;
+}
+.toppers_banner_inner_text {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.toppers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 90px;
+	line-height: 35px;
+}
+.toppers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+.toppers-border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+
+.toppers-border-right2{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:570px;
+	float:left;
+	display:none;
+	margin-right: 20px;
+	}
+
+ }
+ 
+ @media only screen and (min-width: 0px) and (max-width: 479px) {
+	  /*********************
+  Bulk Emails Inner
+*********************/
+.bulk-emails-banner-inner{
+	background:#fff; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.bulk-emails-banner-inner-img{
+	background:url(../img/send-bulk-emails-ats-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+.bulk-emails-banner-inner-text{
+	width:80%;
+	text-align:center;
+	margin-right:7%;
+	}
+.bulk-emails-banner-inner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.bulk-emails-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+	width:90%;
+	margin:auto;
+}
+
+/*********************
+  Social Networks Inner
+*********************/
+.social-networks-banner-inner{
+	background:#fff; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+.social-networks-banner-inner-img{
+	background:url(../img/social-media-for-recruitment-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+.social-networks-banner-inner-text{
+	width:80%;
+	text-align:center;
+	margin-right:7%;
+	}
+.social-networks-banner-inner-text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.social-networks-banner-inner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+	width:90%;
+	margin:auto;
+}
+	  
+	 /*************************
+   Toppers
+*************************/
+
+.toppers_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+
+
+.toppers_banner_inner_img {
+	width: 100%;
+	height: 360px;
+	background:url(../img/sliders/revolution/toppers-med2.jpg) no-repeat center;
+	margin:auto;
+}
+.toppers_banner_inner_text {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.toppers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 90px;
+	line-height: 35px;
+}
+.toppers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+.toppers-border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:200px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+
+.toppers-border-right2{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:570px;
+	float:left;
+	display:none;
+	margin-right: 20px;
+	}
+
+ }
+ 
+ .modal-footer_Alter
+{
+    border-top: 1px solid #E5E5E5;
+    margin-top: 15px;
+    padding: 19px 20px 20px;
+    text-align: left;
+}
+
+.facts-block {
+	background:#e85c41;
+	width: 100px;
+	height: 100px;
+	border-radius: 50% !important;
+	padding: 5px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+}
+
+.facts-block-number {
+	font-size:30px;
+	padding: 2px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+}
+
+.facts-block-text {
+	font-size:15px;
+	padding: 2px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#000;
+}
+
+
+
+.facts-block2 {
+	background:#c78832;
+	width: 100px;
+	height: 100px;
+	border-radius: 50% !important;
+	padding: 5px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+}
+
+.facts-block2-number {
+	font-size:30px;
+	padding: 2px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+}
+
+.facts-block2-text {
+	font-size:15px;
+	padding: 2px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#000;
+}
+
+
+
+
+.facts-block3 {
+	background:#3fa28e;
+	width: 100px;
+	height: 100px;
+	border-radius: 50% !important;
+	padding: 5px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+}
+
+.facts-block3-number {
+	font-size:30px;
+	padding: 2px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+}
+
+.facts-block3-text {
+	font-size:15px;
+	padding: 2px 0 0;
+	margin: 0 auto;
+	text-align:center;
+	color:#000;
+}
+
+
+
+/* Checkout block */
+.checkout-block {
+  background: #292f34;
+  color: #c8ced4;
+  padding: 10px 0;
+}
+.checkout-block h2 {
+  font-size:50px;
+  color:#fff;
+  font-weight:400;
+  margin: 2px 0 0;
+  text-align: center;
+  line-height:50px;
+}
+.checkout-block .text {
+  font-size:15px;
+  color:#fff;
+  font-weight:200;
+  margin: 2px 0 0 0;
+  text-align:center;
+}
+
+
+
+/* Facts block */
+.facts-block {
+  position: relative;
+  min-height: 470px;
+  height: auto;
+  padding: 57px 0 0;
+  z-index: 0;
+  background: #fff url(../img/facts.html) no-repeat fixed;
+  position: relative;
+  color: #fff;
+}
+.facts-block h2 {
+  background: rgba(0,0,0,0.29);
+  line-height: 37px;
+  padding: 14px 0 15px;
+  margin-bottom: 71px;
+  font-size:34px;
+}
+.facts-block h2:after {
+  display: none;
+}
+.facts-block .item {
+  background: rgba(255,99,77,0.92);
+  font: 400 20px "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  width: 198px;
+  height: 198px;
+  border-radius: 50% !important;
+  padding: 33px 0 0; 
+  margin: 0 auto;
+}
+@-moz-document url-prefix() { 
+  .facts-block .item {
+    padding: 31px 0 0; 
+  }
+}
+.ie8 .facts-block .item {
+  background: #e54a1a;
+}
+.facts-block .item strong {
+  display: block;
+  font-size: 60px;
+  text-transform: none;
+  margin-bottom: 4px;
+}
+
+
+@media (max-width: 992px) {
+	/*.facts-block {
+	  min-height: 390px;
+	}*/
+	.facts-block h2 {
+	  margin-bottom: 60px;
+	}
+	.facts-block .item {
+	  font-size: 18px;
+	  width: 138px;
+	  height: 138px;
+	  text-transform: none;
+	  padding-top:13px;
+	}
+	.facts-block .item strong {
+	  font-size: 40px;
+	}
+
+	.ab-cirle-blue {
+	  bottom: 2px;
+	  left: 1%;
+	}
+	.ab-cirle-red {
+	  bottom: 49%;
+	  left: 37%;
+	}
+	.ab-cirle-green {
+	  bottom: 34%;
+	  right: 3%;
+	}
+
+	.team-block .item {
+	  margin-bottom: 30px;
+	}
+	.team-block .img-responsive {
+	  width: 100%;
+	}
+}
+
+
+/* Partners block */
+.partners-block {
+  background: #f6f6f6;
+  padding: 17px 0 0 0;
+  text-align: center;
+}
+
+
+/* Testimonials block */
+.testimonials-block {
+  padding-top: 30px;
+}
+.testimonials-block h2 {
+ 
+  line-height: 37px;
+  font-size:34px;
+}
+
+.testimonials-block h4 {
+  margin-bottom: 57px;
+}
+.testimonials-block .carousel {
+  width: 100%;
+  margin: 0 auto;
+  min-height:180px;
+  text-align:left;
+
+}
+.testimonials-block .testimonials-main {
+	border: none;
+	font: italic 300 16px/1.3 "Open Sans", Arial, sans-serif;
+	margin: 0;
+	color: #66717c;
+}
+.testimonials-name {
+	font: italic 600 13px/1.3 "Open Sans", Arial, sans-serif;
+	color: #45b3a6;
+}
+.testimonials-main p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding-top: 15px;
+}
+.carousel-indicators {
+  position: static;
+  margin: 35px 0 0 -15px;
+  width: 100%;
+}
+.carousel-indicators li {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background: #dce0e2;
+  position: relative;
+  margin: 0 3px !important;
+  border: none;
+}
+.carousel-indicators li.active {
+  background: #e6400c;
+}
+
+
+/* Services block */
+.services-block {
+  padding: 10px 0 40px;
+}
+.services-block .row {
+  padding-top: 12px;
+}
+.services-block .item {
+  border-right: solid 0px #e8e7e7;
+  padding-top: 9px;
+  color:#787677;
+}
+.services-block .col-md-3:last-child {
+  border-right: none;
+}
+.services-block .fa {
+  background: #e85425 !important;
+  color: #fff;
+  width: 55px !important;
+  height:55px !important;  
+  line-height: 1;
+  border-radius: 50% !important;
+  position: relative;
+  margin-bottom: 0px;
+  text-align:center !important;
+}
+
+.services-block .fa:after {
+  bottom: -8px;
+  width: 0; 
+  height: 0;
+  left: 50%;
+  margin-left: -9px;
+  z-index: 2; 
+  content: " "; 
+  display: block; 
+  position: absolute;
+  border-top: 9px solid #e85425;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+}
+
+.services-block .fa {
+  font-size: 25px;
+  padding: 15px 0 0;
+}
+
+.services-block p {
+  margin-bottom: 5px;
+}
+
+.block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-center {
+  text-align: center;
+}
+
+/* Services block 222*/
+.services-block2 {
+  padding: 10px 0 40px;
+}
+.services-block2 .row {
+  padding-top: 12px;
+}
+.services-block2 .item2 {
+  border-right: solid 0px #e8e7e7;
+  padding-top: 9px;
+  color:#787677;
+  
+}
+.services-block2 .col-md-3:last-child {
+  border-right: none;
+}
+.services-block2 .img {
+ /* background: #e85425 !important;*/
+  color: #fff;
+  line-height: 1;
+  /*border-radius: 50% !important;*/
+  position: relative;
+  margin-bottom: 0px;
+  text-align:center !important;
+}
+.services-block2 .img2 {
+  background: #e85425 !important;
+  color: #fff;
+  width: 55px !important;
+  height:55px !important;
+  line-height: 1;
+  border-radius: 50% !important;
+  position: relative;
+  margin-bottom: 0px;
+  text-align:center !important;
+  margin:auto;
+}
+
+
+.services-block2 .img2:after {
+  bottom: -8px;
+  width: 0;
+  height: 0;
+  left: 50%;
+  margin-left: -9px;
+  z-index: 2;
+  content: " ";
+  display: block;
+  position: absolute;
+  border-top: 9px solid #e85425;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+}
+
+.services-block2 .img {
+  padding: 13px 0 0;
+  width:24px;
+}
+
+.services-block2 p {
+  margin-bottom: 5px;
+}
+
+.block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.static-bold-font-weight
+{
+    font-weight:400;
+}
+
+ .form-control-public
+{
+    font-weight: normal;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Open Sans' , sans-serif;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    height: 45px !important;
+    width: 99%;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.how-it-works-border{
+	border:#ddd solid 1px;
+	PADDING: 2PX 3px;
+    margin: 5px 0px;
+	}
+	
+
+/* 404 page */
+.content-page .link, .content-page .link:hover, .content-page .link:active {
+	color: #45b3a6;
+}
+.page-404 .number,
+.page-500 .number {
+	color: #45b3a6;
+	
+}
+.content-form-page a:hover {
+	color: #45b3a6;
+}
+.course-syll h4{
+	font-size: 14px;
+}
+.ntis-page {
+	text-align: left; 
+	margin-top: 90px;
+}
+.courses-page {
+	min-height: 623px;
+}

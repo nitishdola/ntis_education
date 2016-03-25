@@ -1,0 +1,6892 @@
+/*-----------------------------------------------------------------------------
+
+KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
+
+Screen Stylesheet
+
+version:   	1.0
+date:      	07/27/11
+author:		themepunch
+email:     	support@themepunch.com
+website:   	http://www.themepunch.com
+-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+  /*********************************************************************************************
+		-	SET THE SCREEN SIZES FOR THE BANNER IF YOU WISH TO MAKE THE BANNER RESOPONSIVE 	-
+  **********************************************************************************************/
+
+  /*	-	THE BANNER CONTAINER (Padding, Shadow, Border etc. )	-	*/
+
+
+.main_banner {
+	background:url(../../../img/sliders/revolution/bg-homepage-600698d.jpg?111) no-repeat center;
+	min-height: 565px;
+	border-bottom: #ddd solid 1px;
+	width: 100%;
+	background-size: cover;
+	margin-top: 100px;
+}
+.main_banner_text {
+	width: 47%;
+	height: 100%;
+	float: right;
+	margin-left: 40px;
+}
+.main_banner_text h1 {
+	font-size: 38px;
+	padding-top: 80px;
+	text-transform: uppercase;
+	color: #f42c2e;
+	
+}
+.main_banner_text h2 {
+	font-size: 24px;
+	margin:0;
+}
+.main_banner_text h3 {
+	font-size: 18px;
+	padding-top:50px;
+	line-height:26px
+}
+
+.main_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.bannercontainer {
+	background-color: #fff;
+	width: 960px;
+	position: relative;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner {
+	width: 960px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.bannercontainer-simple {
+	padding: 0px;
+	background-color: #fff;
+	width: 960px;
+	position: relative;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.banner-simple {
+	width: 960px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.fullwidthbanner-container {
+	width: 100% !important;
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+.fullwidthbanner-container .fullwidthabnner {
+	width: 100% !important;
+	max-height: 565px !important;
+	position: relative;
+}
+
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant-tracking-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.applicant-tracking-banner-text {
+	   margin-left:10px;
+	float:right;
+	width:50%;
+}
+.applicant-tracking-banner-text h1 {
+    font-size: 34px;
+	padding-top: 85px;
+	line-height: 45px;
+}
+.applicant-tracking-banner-text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+/*************************
+  Job Boards
+*************************/
+
+.job_boards_banner {
+	background: #f5f6f8;
+	width: 100%;
+	min-height: 500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+.job_boards_banner_img {
+	width:75%;
+	text-align: center;
+	margin:auto;
+}
+
+.job_boards_banner_text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	font-weight: 200;
+}
+.job_boards_banner_text h1 {
+	font-size: 32px;
+	padding-top: 30px;
+}
+.job_boards_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*************************
+   Recruitment Agencies
+*************************/
+
+.recruitment_agencies_banner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+}
+
+
+.recruitment_agencies_banner_img {
+	width: 450px;
+	height: 504px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-agencies222.jpg) no-repeat bottom;
+}
+.recruitment_agencies_banner_text {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_text h1 {
+	font-size: 36px;
+	padding-top: 100px;
+	line-height: 45px;
+}
+.recruitment_agencies_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*********************
+   Hiring Team 
+*********************/
+
+.hiring_team_banner {
+	background:#f5f6f8; 
+	height:auto; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+}
+
+.hiring_team_banner_img {
+	width: 622px;
+	height: 504px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-hiring-team-big.png) no-repeat bottom;
+}
+.hiring_team_banner_text {
+	width: 40%;
+	height: auto;
+	float: right;
+}
+.hiring_team_banner_text h1 {
+	font-size: 32px;
+	padding-top: 130px;
+	line-height: 45px;
+}
+.hiring_team_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+   Online Assessments 
+*********************/
+
+.online_assessments_banner {
+	width:100%;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+
+}
+
+.online_assessments_banner_img {
+	width: 458px;
+	height: 504px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-onlinetests-big.jpg) no-repeat bottom;
+}
+.online_assessments_banner_text {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-left:100px;
+}
+.online_assessments_banner_text h1 {
+	font-size: 32px;
+	padding-top: 120px;
+	line-height: 45px;
+}
+.online_assessments_banner_text h2 {
+	font-size: 24px;
+	line-height: 45px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.interview_scheduling_banner {
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_img {
+	width: 525px;
+	height: 504px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-big.png) no-repeat bottom;
+}
+.interview_scheduling_banner_text {
+	width: 53%;
+	height: auto;
+	float: left;
+	margin-left:px;
+}
+.interview_scheduling_banner_text h1 {
+	font-size: 32px;
+	padding-top: 120px;
+	line-height: 45px;
+}
+
+.interview_scheduling_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*********************
+ Call Conference
+*********************/
+.call_conference_banner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+.call_conference_banner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-big.jpg) no-repeat left; 
+	float:left;
+	width:424px;
+	height:504px;
+	}	
+
+.call_conference_banner_text{
+	margin-left:10px;
+	float:right;
+	width:52%;
+	}
+.call_conference_banner_text h1 {
+	font-size: 32px;
+	padding-top: 100px;
+	color: #000;
+	line-height:45px;
+	
+}
+.call_conference_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*********************
+ Hire Interviewers
+*********************/
+.hire_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	width:52%;
+	}
+.hire_interviewers_banner_text h1 {
+	font-size: 32px;
+	padding-top: 100px;
+	color: #000;
+	line-height:45px;
+	
+}
+.hire_interviewers_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+/*********************
+ Background Verification
+*********************/
+.background_verification_banner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_text{
+	margin-left:10px;
+	float:left;
+	}
+.background_verification_banner_text h1 {
+	font-size: 32px;
+	padding-top: 130px;
+	color: #000;
+	line-height:45px;
+	
+}
+.background_verification_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+/*********************
+  Manage Interviewers
+*********************/
+.manage_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.manage_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	}
+.manage_interviewers_banner h1 {
+	font-size: 32px;
+	padding-top: 100px;
+	color: #fff;
+}
+.manage_interviewers_banner h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+/*************************
+   Analytics
+*************************/
+
+.analytics_banner{
+	background:url(../../../img/sliders/revolution/banner-analytics-big.jpg) no-repeat center #eff0f2;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_text{
+	margin-left:650px;
+	float:left;
+	}
+.analytics_banner h1 {
+	font-size: 32px;
+	padding-top: 130px;
+	color: #000;
+}
+.analytics_banner h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+/*************************
+   Career Website
+*************************/
+
+.career_website_banner{
+	background:#f5f6f8;
+	min-height:450px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+
+.career_website_banner_img{
+	width:40%;
+	float:right;
+	margin-top:50px;
+	height:auto;
+	margin-right:50px;
+	}
+.career_website_banner_text{
+	width:45%;
+	float:left;
+	margin-left:20px;
+	}
+.career_website_banner h1 {
+	font-size: 34px;
+	padding-top: 100px;
+	color: #000;
+	line-height:45px;
+}
+.career_website_banner h4 {
+	font-size: 18px;
+	line-height: 28px;
+}	
+
+
+
+
+
+/*************************
+   Applicant Tracking Inner
+*************************/
+
+.banner_applicant_tracking{
+	background:#fff;
+	min-height:380px; 
+	border-bottom:#ddd solid 1px;
+	border-top:#ddd solid 1px;
+	width:100%;
+	background-position: center top;
+	}
+	
+.banner_applicant_tracking_img{
+    background:#fff;
+	width:52%;
+	margin:auto;
+	}
+
+.banner_applicant_tracking_text{
+	width:85%;
+	margin:auto;
+	text-align:center;
+	}
+.banner_applicant_tracking_text h1 {
+	font-size: 34px;
+	padding-top: 20px;
+	color: #000;
+	line-height: 40px;
+}
+.banner_applicant_tracking_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}	
+
+
+
+.applicant_tracking_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.applicant_tracking_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-580.jpg) no-repeat left bottom;
+	width: 500px;
+	height: 504px;
+	float: left;
+}
+.applicant_tracking_banner_inner_text {
+	width: 51%;
+	height: 100%;
+	float: left;
+	margin-left: 40px;
+}
+.applicant_tracking_banner_inner_text h1 {
+	font-size: 36px;
+	line-height:45px;
+	padding-top: 120px;
+}
+.applicant_tracking_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Recruitment Agencies Inner
+*************************/
+
+.recruitment_agencies_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+}
+
+
+.recruitment_agencies_banner_inner_img {
+	width: 450px;
+	height: 504px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-agencies222.jpg) no-repeat bottom;
+}
+.recruitment_agencies_banner_inner_text {
+	width: 55%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_inner_text h1 {
+	font-size: 36px;
+	padding-top: 90px;
+	line-height: 45px;
+}
+.recruitment_agencies_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*************************
+   Hiring Team Inner
+*************************/
+
+.hiring_team_inner_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.hiring_team_inner_banner_img {
+	background: url(../../../img/hiring-team-inner-big.jpg) no-repeat left bottom;
+	width: 520px;
+	height: 441px;
+	float: left;
+}
+.hiring_team_inner_banner_text {
+	width: 53%;
+	height: 100%;
+	float: left;
+	margin-left: 0px;
+}
+.hiring_team_inner_banner_text h1 {
+	font-size: 34px;
+	padding-top: 100px;
+	line-height:40px;
+}
+.hiring_team_inner_banner_text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+/*************************
+   Manage Interviewers Inner
+*************************/
+
+.manage_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+.manage_interviewers_banner_inner_text{
+	margin-left:0px;
+	float:left;
+	width:45%;
+	}
+.manage_interviewers_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 80px;
+	color: #fff;
+	line-height:40px;
+}
+.manage_interviewers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+/********************************
+  Interview Scheduling Inner
+********************************/
+
+.interview_scheduling_banner_inner {
+	min-height:500px; 
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-big.png) no-repeat bottom;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_inner_img {
+	width: 525px;
+	height: 504px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-big.png) no-repeat bottom;
+}
+.interview_scheduling_banner_inner_text {
+	width: 53%;
+	height: auto;
+	float: left;
+	margin-left:px;
+}
+.interview_scheduling_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 120px;
+	line-height: 40px;
+}
+
+.interview_scheduling_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/****************************
+   Online Assessments Inner
+****************************/
+
+.online_assessments_banner_inner {
+	width:100%;
+	min-height:500px; 
+	background: url(../../../img/online-assessment-inner-big.jpg) no-repeat bottom;
+	border-bottom:#ddd solid 1px;
+
+}
+
+
+.online_assessments_banner_inner_text {
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-left:0px;
+}
+.online_assessments_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 100px;
+	line-height: 40px;
+}
+.online_assessments_banner_inner_text h2 {
+	font-size: 24px;
+	line-height: 45px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Analytics Inner
+*************************/
+
+.analytics_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-analytics-big.jpg) no-repeat center #eff0f2;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_inner_text{
+	float:right;
+	width:50%;
+	}
+.analytics_banner_inner h1 {
+	font-size: 34px;
+	padding-top: 130px;
+	color: #000;
+	line-height:40px;
+}
+.analytics_banner_inner h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/****************************
+ Background Verification Inner
+****************************/
+.background_verification_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_inner_text{
+	margin-left:10px;
+	float:left;
+	width:50%;
+	}
+.background_verification_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 110px;
+	color: #000;
+	line-height:40px;
+	
+}
+.background_verification_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+/*************************
+   Career Website Inner
+*************************/
+
+.career_website_banner_inner{
+	background:#f5f6f8;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_inner_img{
+	width:45%;
+	float:left;
+	margin-top:50px;
+	height:auto;
+
+}
+
+.career_website_banner_inner_text{
+	width:45%;
+	float:right;
+	}
+.career_website_banner_inner_text h1 {
+	font-size: 35px;
+	padding-top: 120px;
+	color: #000;
+	line-height:40px;
+}
+.career_website_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+
+/*********************
+ Hire Interviewers Inner
+*********************/
+.hire_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_inner_text{
+	margin-left:10px;
+	float:left;
+	width:52%;
+	}
+.hire_interviewers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 120px;
+	color: #000;
+	line-height:45px;
+	
+}
+.hire_interviewers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+/*********************
+ Call Conference Inner
+*********************/
+.call_conference_banner_inner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+.call_conference_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-big.jpg) no-repeat left; 
+	float:left;
+	width:424px;
+	height:504px;
+	}	
+
+.call_conference_banner_inner_text{
+	margin-left:10px;
+	float:right;
+	width:52%;
+	}
+.call_conference_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 120px;
+	color: #000;
+	line-height:45px;
+	
+}
+.call_conference_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+	
+/*************************
+   Features Home
+*************************/
+.features_home h1 {
+	font-size: 34px;
+	padding-top: 15px;
+	line-height: 40px;
+}
+.features_home h4 {
+	font-size: 18px;
+	line-height: 26px;
+	color:#787677;
+}
+
+
+#headerImage {
+    background:url(../../../img/about-us-big.jpg) no-repeat center center #fff;
+    height: 500px;
+    max-width: 100%;
+    width: 100%;
+}
+.play{background:url(../../../img/play-button.png) no-repeat;
+    font-size:0;
+	height:154px;
+	left:57%;
+	margin-top:-25px;
+	margin-left:-25px;
+	position:absolute;
+	top:50%;
+	width:154px;
+	margin-top:175px;
+	}
+	
+/*************************
+  HIRE AGENCIES
+*************************/
+
+
+.hire-agencies-banner {
+    background:url(../../../img/sliders/revolution/talent-pool1.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #606060 solid 1px;
+	text-align: center;
+}
+
+
+.hire-agencies-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff
+}
+.hire-agencies-banner-text h1 {
+	font-size: 34px;
+	padding-top: 90px;
+	color:#fff;
+	padding-left:21px;
+}
+.hire-agencies-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+	color:#fff
+}
+
+
+
+/*********************
+  SOCIAL RECRUITING
+*********************/
+
+.social-recruiting-banner {
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+    background: url(../../../img/sliders/revolution/social-media-for-recruitment.jpg) no-repeat center;
+
+}
+
+
+.social-recruiting-banner-text {
+	width: 45%;
+	height: auto;
+	margin-left:8%;
+	float:right;
+}
+.social-recruiting-banner-text h1 {
+	font-size: 34px;
+	padding-top: 70px;
+	line-height: 45px;
+}
+
+.social-recruiting-banner-text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/*********************
+  BULK EMAILS
+*********************/
+
+.bulk-emails-banner {
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background: url(../../../img/sliders/revolution/send-bulk-emails-ats-big.jpg) no-repeat right;
+}
+
+
+.bulk-emails-banner-text {
+	width: 53%;
+	height: auto;
+	float: left;
+	margin-left:20px;
+}
+.bulk-emails-banner-text h1 {
+	font-size: 34px;
+	padding-top: 60px;
+	line-height: 45px;
+}
+
+.bulk-emails-banner-text h4 {
+	font-size: 18px;
+	line-height: 28px;
+	}
+
+/*************************
+  Toppers Database
+*************************/
+
+.toppers-database-banner {
+    background:url(../../../img/sliders/revolution/toppers-database.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.toppers-database-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff
+}
+.toppers-database-banner-text h1 {
+	font-size: 34px;
+	padding-top: 90px;
+	color:#fff;
+	padding-left:21px;
+}
+.toppers-database-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+	color:#fff
+}
+
+
+.testimonials-border{
+	border-right:#ddd solid 1px !important;
+	height:112px !important;
+	}
+	
+	
+/*************************
+   Applicant Tracking Inner page
+*************************/
+
+.applicant-tracking-inner-page-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	border-top: #ddd solid 1px;
+}
+.applicant-tracking-inner-page-banner-text {
+	   margin-left:10px;
+	float:right;
+	width:50%;
+}
+.applicant-tracking-inner-page-banner-text h1 {
+    font-size: 34px;
+	padding-top: 85px;
+	line-height: 45px;
+}
+.applicant-tracking-inner-page-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*************************
+   Social Recruiting Inner page
+*************************/
+.social-recruiting-inner-page-banner {
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+    background: url(../../../img/sliders/revolution/social-media-for-recruitment.jpg) no-repeat center;
+
+}
+
+
+.social-recruiting-inner-page-banner-text {
+	width: 45%;
+	height: auto;
+	margin-left:8%;
+	float:right;
+}
+.social-recruiting-inner-page-banner-text h1 {
+	font-size: 34px;
+	padding-top: 70px;
+	line-height: 40px;
+	text-transform:uppercase;
+}
+
+.social-recruiting-inner-page-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Key Features
+*************************/
+.key_features{
+	width:100%;
+	height:auto;
+	font-weight: 200;
+	}
+	
+.border-right{ 
+    border-right:#ddd solid 1px;
+	margin-top:45px;
+	height:150px;
+	float:left;
+	margin-right: 20px;
+	}
+.page-container{ margin-top:100px;}
+
+.bottom-form-box{
+	width:54%;
+	margin-left:5px;
+	}
+.bottom-form{
+    float:left;
+	width:68%;
+	margin-right:20px;
+  }
+  
+.bottom-form-btn{
+	float:left;
+	width:15%;
+	
+	}
+
+
+ @media only screen and (min-width: 992px) and (max-width: 1280px) {
+	 
+/*************************
+   Main Banner
+*************************/	
+	 
+.main_banner {
+	background: url(../../../img/sliders/revolution/bg-homepage-600698d.jpg?111) no-repeat center;
+	min-height: 565px;
+	border-bottom: #ddd solid 1px;
+	width: 100%;
+	margin-top: 100px;
+}
+.main_banner_text {
+	width: 54%;
+	height: 100%;
+	float: right;
+	margin-left: 40px;
+}
+.main_banner_text h1 {
+	font-size: 36px;
+	padding-top: 100px;
+	text-transform: uppercase;
+	color: #f42c2e;
+}
+.main_banner_text h2 {
+	font-size: 24px;
+	margin:0;
+}
+.main_banner_text h3 {
+	font-size: 18px;
+	padding-top: 50px;
+	line-height:26px
+}
+.main_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+
+
+/*************************
+  Job Boards
+*************************/
+
+
+.job_boards_banner {
+	background: #f5f6f8;
+	width: 100%;
+	min-height: 450px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.job_boards_banner_img {
+	width:75%;
+	text-align: center;
+	margin:auto;
+}
+
+.job_boards_banner_text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+.job_boards_banner_text h1 {
+	font-size: 36px;
+	padding-top: 30px;
+}
+.job_boards_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*************************
+   Recruitment Agencies
+*************************/
+
+.recruitment_agencies_banner_img {
+	width: 410px;
+	height: 504px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-agencies222.jpg) no-repeat bottom;
+}
+.recruitment_agencies_banner_text {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_text h1 {
+	font-size: 36px;
+	padding-top: 80px;
+	line-height: 45px;
+}
+.recruitment_agencies_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+   Hiring Team 
+*********************/
+
+.hiring_team_banner{
+	min-height:450px;
+	margin:auto;
+
+	}
+
+.hiring_team_banner_img {
+	width: 522px;
+	height: 440px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-hiring-team-big1.png) no-repeat bottom;
+}
+.hiring_team_banner_text {
+	width: 42%;
+	height: auto;
+	float: right;
+}
+.hiring_team_banner_text h1 {
+	font-size: 36px;
+	padding-top: 110px;
+	line-height: 45px;
+}
+.hiring_team_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*********************
+   Online Assessments 
+*********************/
+
+.online_assessments_banner {
+	width:100%;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+
+}
+
+.online_assessments_banner_img {
+	width: 409px;
+	height: 450px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-onlinetests-big1.jpg) no-repeat bottom;
+}
+.online_assessments_banner_text {
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-left:40px;
+}
+.online_assessments_banner_text h1 {
+	font-size: 36px;
+	padding-top: 110px;
+	line-height: 45px;
+}
+.online_assessments_banner_text h2 {
+	font-size: 24px;
+	line-height: 45px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.interview_scheduling_banner {
+	min-height:466px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_img {
+	width: 485px;
+	height: 466px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-big1.png) no-repeat bottom;
+}
+.interview_scheduling_banner_text {
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-left:20px;
+}
+.interview_scheduling_banner_text h1 {
+	font-size: 36px;
+	padding-top: 50px;
+	line-height: 45px;
+}
+
+.interview_scheduling_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+ Call Conference
+*********************/
+.call_conference_banner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+.call_conference_banner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-big.jpg) no-repeat left; 
+	float:left;
+	width:424px;
+	height:504px;
+	}	
+
+.call_conference_banner_text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+	
+.call_conference_banner_text h1 {
+	font-size: 36px;
+	padding-top: 100px;
+	color: #000;
+	line-height:45px;
+	
+}
+.call_conference_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+ Hire Interviewers
+*********************/
+.hire_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	width:52%;
+	}
+.hire_interviewers_banner_text h1 {
+	font-size: 36px;
+	padding-top: 100px;
+	color: #000;
+	line-height:45px;
+	
+}
+.hire_interviewers_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*********************
+ Background Verification
+*********************/
+.background_verification_banner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_text{
+	float:left;
+
+	}
+.background_verification_banner_text h1 {
+	font-size: 36px;
+	padding-top: 130px;
+	color: #000;
+	line-height:45px;
+	
+}
+.background_verification_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*********************
+  Manage Interviewers
+*********************/
+.manage_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+	.manage_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	}
+
+
+.manage_interviewers_banner h1 {
+	font-size: 36px;
+	padding-top: 100px;
+	color: #fff;
+}
+.manage_interviewers_banner h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+/*************************
+   Analytics
+*************************/
+
+.analytics_banner{
+	background:url(../../../img/sliders/revolution/banner-analytics-big.jpg) no-repeat center #eff0f2;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_text{
+	margin-left:500px;
+	
+	}
+.analytics_banner h1 {
+	font-size: 36px;
+	padding-top: 130px;
+	color: #000;
+}
+.analytics_banner h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+/*************************
+   Career Website
+*************************/
+
+.career_website_banner{
+		background:#f5f6f8;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_img{
+	width:40%;
+	float:right;
+	margin-top:70px;
+	height:auto;
+
+}
+
+.career_website_banner_text{
+	width:45%;
+	float:left;
+	}
+
+.career_website_banner_text h1 {
+	font-size: 34px;
+	padding-top: 120px;
+	color: #000;
+}
+.career_website_banner_text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/*************************
+   Applicant Tracking Inner
+*************************/
+
+.banner_applicant_tracking{
+	background:#fff;
+	min-height:380px; 
+	border-bottom:#ddd solid 1px;
+	border-top:#ddd solid 1px;
+	width:100%;
+	background-position: center top;
+	}
+	
+.banner_applicant_tracking_img{
+    background:#fff;
+	width:59%;
+	margin:auto;
+	}
+.banner_applicant_tracking_text{
+	margin:auto;
+	width:90%;
+	}
+.banner_applicant_tracking_text h1 {
+	font-size: 34px;
+	padding-top: 20px;
+	color: #000;
+	line-height:40px;
+}
+.banner_applicant_tracking_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+.applicant_tracking_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.applicant_tracking_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-580.jpg) no-repeat left bottom;
+	width: 466px;
+	height: 504px;
+	float: left;
+}
+.applicant_tracking_banner_inner_text {
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 40px;
+}
+.applicant_tracking_banner_inner_text h1 {
+	font-size: 36px;
+	line-height:45px;
+	padding-top: 110px;
+}
+.applicant_tracking_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+
+/*************************
+   Hiring Team Inner
+*************************/
+
+.hiring_team_inner_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.hiring_team_inner_banner_img {
+	background: url(../../../img/hiring-team-inner-big.jpg) no-repeat left bottom;
+	width: 520px;
+	height: 441px;
+	float: left;
+}
+.hiring_team_inner_banner_text {
+	width: 45%;
+	height: 100%;
+	float: left;
+	margin-left: 0px;
+}
+.hiring_team_inner_banner_text h1 {
+	font-size: 34px;
+	padding-top: 90px;
+	line-height:40px;
+}
+.hiring_team_inner_banner_text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+/*************************
+   Manage Interviewers Inner
+*************************/
+	.manage_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+
+.manage_interviewers_banner_inner_text{
+	margin-left:0px;
+	float:left;
+	width:45%;
+	}
+.manage_interviewers_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 80px;
+	color: #fff;
+	line-height:40px;
+}
+.manage_interviewers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+/*************************
+   Recruitment Agencies Inner
+*************************/
+
+.recruitment_agencies_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+}
+
+
+.recruitment_agencies_banner_inner_img {
+	width: 350px;
+	height: 504px;
+	float: right;
+	background: url(../../../img/recruitment-agencies-inner.jpg) no-repeat bottom;
+}
+.recruitment_agencies_banner_inner_text {
+	width: 56%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_inner_text h1 {
+	font-size: 36px;
+	padding-top: 90px;
+	line-height: 45px;
+}
+.recruitment_agencies_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/****************************
+  Interview Scheduling Inner
+*****************************/
+
+.interview_scheduling_banner_inner {
+	min-height:466px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_inner_img {
+	width: 485px;
+	height: 466px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-big1.png) no-repeat bottom;
+}
+.interview_scheduling_banner_inner_text {
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-left:20px;
+}
+.interview_scheduling_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 50px;
+	line-height: 40px;
+}
+
+.interview_scheduling_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/****************************
+   Online Assessments Inner
+****************************/
+
+.online_assessments_banner_inner {
+	width:100%;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+	background: url(../../../img/online-assessment-inner-big.jpg) no-repeat bottom;
+
+}
+
+
+.online_assessments_banner_inner_text {
+	width: 39%;
+	height: auto;
+	float: left;
+	margin-left:40px;
+}
+.online_assessments_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 60px;
+	line-height: 40px;
+}
+.online_assessments_banner_inner_text h2 {
+	font-size: 24px;
+	line-height: 45px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Analytics Inner
+*************************/
+
+.analytics_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-analytics-big.jpg) no-repeat center #eff0f2;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_inner_text{
+	float:right;
+	width:45%;
+	}
+.analytics_banner_inner h1 {
+	font-size: 34px;
+	padding-top: 130px;
+	color: #000;
+	line-height:40px;
+}
+.analytics_banner_inner h4 {
+	font-size: 18px;
+	line-height: 30px;
+}	
+
+
+/*********************
+ Hire Interviewers Inner
+*********************/
+.hire_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_inner_text{
+	margin-left:10px;
+	float:left;
+	width:52%;
+	}
+.hire_interviewers_banner_inner_text h1 {
+	font-size: 36px;
+	padding-top: 120px;
+	color: #000;
+	line-height:45px;
+	
+}
+.hire_interviewers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/******************************
+ Background Verification Inner
+******************************/
+.background_verification_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_inner_text{
+	float:left;
+	width:50%;
+	}
+.background_verification_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 130px;
+	color: #000;
+	line-height:40px;
+	
+}
+.background_verification_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*************************
+   Career Website Inner
+*************************/
+
+.career_website_banner_inner{
+	background:#f5f6f8;
+	min-height:500px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_inner_img{
+	width:45%;
+	float:left;
+	margin-top:70px;
+	height:auto;
+
+}
+
+.career_website_banner_inner_text{
+	width:45%;
+	float:right;
+	}
+
+.career_website_banner_inner_text h1 {
+	font-size: 34px;
+	padding-top: 110px;
+	color: #000;
+	line-height:40px;
+}
+.career_website_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+ Call Conference Inner
+*********************/
+.call_conference_banner_inner{
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+.call_conference_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-big.jpg) no-repeat left; 
+	float:left;
+	width:424px;
+	height:504px;
+	}	
+
+.call_conference_banner_inner_text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+	
+.call_conference_banner_inner_text h1 {
+	font-size: 36px;
+	padding-top: 120px;
+	color: #000;
+	line-height:45px;
+	
+}
+.call_conference_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+#headerImage {
+    background:url(../../../img/about-us-big.jpg) no-repeat center center #fff;
+    height: 500px;
+    max-width: 100%;
+    width: 100%;
+}
+.play{background:url(../../../img/play-button.png) no-repeat;
+    font-size:0;
+	height:154px;
+	left:57%;
+	margin-top:-25px;
+	margin-left:-25px;
+	position:absolute;
+	top:50%;
+	width:154px;
+	margin-top:175px;
+	}
+
+
+/*************************
+  HIRE AGENCIES
+*************************/
+
+
+.hire-agencies-banner {
+    background:url(../../../img/sliders/revolution/talent-pool1.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #606060 solid 1px;
+	text-align: center;
+}
+
+
+.hire-agencies-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff
+}
+.hire-agencies-banner-text h1 {
+	font-size: 34px;
+	padding-top: 90px;
+	color:#fff;
+	padding-left:21px;
+}
+.hire-agencies-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+	color:#fff
+}
+
+/*************************
+  Toppers Database
+*************************/
+
+.toppers-database-banner {
+    background:url(../../../img/sliders/revolution/toppers-database.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.toppers-database-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff
+}
+.toppers-database-banner-text h1 {
+	font-size: 34px;
+	padding-top: 90px;
+	color:#fff;
+	padding-left:21px;
+}
+.toppers-database-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+	color:#fff
+}
+
+/*********************
+  SOCIAL RECRUITING
+*********************/
+
+.social-recruiting-banner {
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment.jpg) no-repeat center;
+
+
+}
+
+.social-recruiting-banner-text {
+	width: 45%;
+	height: auto;
+	float: right;
+	margin-left:20px;
+}
+.social-recruiting-banner-text h1 {
+	font-size: 34px;
+	padding-top: 50px;
+	line-height: 45px;
+}
+
+.social-recruiting-banner-text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+/*********************
+  BULK EMAILS
+*********************/
+
+.bulk-emails-banner {
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background: url(../../../img/sliders/revolution/send-bulk-emails-ats-big.jpg) no-repeat right;
+}
+
+
+.bulk-emails-banner-text {
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-left:20px;
+}
+.bulk-emails-banner-text h1 {
+	font-size: 34px;
+	padding-top:60px;
+	line-height: 45px;
+}
+
+.bulk-emails-banner-text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant-tracking-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.applicant-tracking-banner-text {
+	   margin-left:10px;
+	float:right;
+	width:50%;
+}
+.applicant-tracking-banner-text h1 {
+    font-size: 34px;
+	padding-top: 85px;
+	line-height: 45px;
+}
+.applicant-tracking-banner-text h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+.testimonials-border{
+	border-right:#ddd solid 1px !important;
+	height:112px !important;
+	}
+	
+	/*********************************
+   Applicant Tracking Inner Page
+*********************************/
+
+.applicant-tracking-inner-page-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	border-top: #ddd solid 1px;
+}
+.applicant-tracking-inner-page-banner-text {
+	   margin-left:10px;
+	float:right;
+	width:50%;
+}
+.applicant-tracking-inner-page-banner-text h1 {
+    font-size: 34px;
+	padding-top: 85px;
+	line-height: 40px;
+}
+.applicant-tracking-inner-page-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*********************
+  SOCIAL RECRUITING Inner page
+*********************/
+
+.social-recruiting-inner-page-banner {
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	 background: url(../../../img/sliders/revolution/social-media-for-recruitment.jpg) no-repeat center;
+
+
+}
+
+.social-recruiting-inner-page-banner-text {
+	width: 45%;
+	height: auto;
+	float: right;
+	margin-left:20px;
+}
+.social-recruiting-inner-page-banner-text h1 {
+	font-size: 34px;
+	padding-top: 100px;
+	line-height: 40px;
+	text-transform:uppercase;
+}
+
+.social-recruiting-inner-page-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Key Features
+*************************/
+.key_features{
+	width:100%;
+	height:auto;
+	font-weight: 200;
+	}
+	
+	.border-right{ 
+    border-right:#ddd solid 1px;
+	margin-top:45px;
+	height:150px;
+	float:left;
+	margin-right: 20px;
+	}
+	
+	.bottom-form-box{
+	width:54%;
+	margin-left:47px;
+	}
+.bottom-form{
+    float:left;
+	width:68%;
+	margin-right:20px;
+  }
+  
+.bottom-form-btn{
+	float:left;
+	width:15%;
+	
+	}
+
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) 
+{
+    .page-container{ margin-top:169px;}
+    
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+.banner, .bannercontainer {
+	width: 760px;
+	height: 396px;
+}
+
+/*************************
+   Main Banner
+*************************/	
+
+.main_banner {
+	background: url(../../../img/sliders/revolution/bg-homepage-991698d.jpg?111) no-repeat center;
+	min-height: 460px;
+	border-bottom: #ddd solid 1px;
+	width: 100%;
+	margin-top: 120px;
+}
+.main_banner_text {
+	width: 52%;
+	height: 100%;
+	float: right;
+	margin-left: 40px;
+}
+.main_banner_text h1 {
+	font-size: 36px;
+	padding-top: 70px;
+	text-transform: uppercase;
+	color: #f42c2e;
+}
+
+.main_banner_text h2 {
+	font-size: 22px;
+	margin:0;
+}
+.main_banner_text h3 {
+	font-size: 16px;
+	padding-top: 40px;
+	line-height:26px
+}
+.main_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant_tracking_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.applicant_tracking_banner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-400.jpg) no-repeat left bottom;
+	width: 320px;
+	height: 341px;
+	float: left;
+}
+.applicant_tracking_banner_text {
+	width: 53%;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+}
+.applicant_tracking_banner_text h1 {
+	font-size: 30px;
+	padding-top: 40px;
+}
+.applicant_tracking_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+  Job Boards
+*************************/
+
+
+.job_boards_banner {
+	background: #f5f6f8;
+	width: 100%;
+	min-height: 340px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+.job_boards_banner_img {
+	width: 90%;
+	text-align: center;
+    margin:auto;
+}
+
+.job_boards_banner_text {
+	width: 100%;
+	text-align: center;
+    margin:auto;
+}
+.job_boards_banner_text h1 {
+	font-size: 30px;
+	padding-top: 20px;
+}
+.job_boards_banner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+/*************************
+   Recruitment Agencies
+*************************/
+.recruitment_agencies_banner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-370.jpg) no-repeat bottom;
+	width: 260px;
+	height: 414px;
+	float: right;
+}
+.recruitment_agencies_banner_text {
+	width: 47%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_text h1 {
+	font-size: 30px;
+	padding-top: 70px;
+	line-height: 35px;
+}
+.recruitment_agencies_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*********************
+   Hiring Team 
+*********************/
+hiring_team_banner{
+	min-height:385px;
+	}
+.hiring_team_banner_img {
+	width: 365px;
+	height: 400px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-hiring-team-med.png) no-repeat center left;
+}
+.hiring_team_banner_text {
+	width: 47%;
+	height: auto;
+	float: right;
+}
+.hiring_team_banner_text h1 {
+	font-size: 30px;
+	padding-top: 90px;
+	line-height: 45px;
+}
+.hiring_team_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*********************
+   Online Assessments 
+*********************/
+
+.online_assessments_banner {
+	width:100%;
+	min-height:400px; 
+	border-bottom:#ddd solid 1px;
+
+}
+
+.online_assessments_banner_img {
+	width: 280px;
+	height: 400px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-onlinetests-med.jpg) no-repeat bottom;
+}
+.online_assessments_banner_text {
+	width: 50%;
+	height: auto;
+	float: right;
+	margin-left:0px;
+}
+.online_assessments_banner_text h1 {
+	font-size: 30px;
+	padding-top: 60px;
+	line-height: 35px;
+}
+.online_assessments_banner_text h2 {
+	font-size: 18px;
+	line-height: 35px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.interview_scheduling_banner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_img {
+	width: 300px;
+	height: 380px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-med.png) no-repeat bottom;
+}
+.interview_scheduling_banner_text {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.interview_scheduling_banner_text h1 {
+	font-size: 30px;
+	padding-top: 50px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*********************
+ Call Conference
+*********************/
+.call_conference_banner{
+	background:#fff; 
+	min-height:400px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+.call_conference_banner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-med.jpg) no-repeat left; 
+	float:left;
+	width:332px;
+	height:395px;
+	}	
+
+.call_conference_banner_text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.call_conference_banner_text h1 {
+	font-size: 30px;
+	padding-top: 30px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*********************
+ Hire Interviewers
+*********************/
+.hire_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:390px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	width:60%;
+	}
+.hire_interviewers_banner_text h1 {
+	font-size: 30x;
+	padding-top: 60px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*********************
+ Background Verification
+*********************/
+.background_verification_banner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_text{
+	float:left;
+	}
+.background_verification_banner_text h1 {
+	font-size: 30px;
+	padding-top: 100px;
+	color: #000;
+	line-height:40px;
+	
+}
+.background_verification_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*********************
+  Manage Interviewers
+*********************/
+.manage_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-med.jpg) no-repeat center; 
+	min-height:440px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+	
+.manage_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	}
+.manage_interviewers_banner h1 {
+	font-size: 30px;
+	padding-top: 70px;
+	color: #fff;
+}
+.manage_interviewers_banner h4 {
+	font-size: 16px;
+	line-height: 26px;
+}		
+
+
+/*************************
+   Analytics
+*************************/
+
+.analytics_banner{
+	background:url(../../../img/sliders/revolution/banner-analytics-med.jpg) no-repeat center #eff0f2;
+	min-height:390px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_text{
+	margin-left:385px;
+	float:right;
+	}
+.analytics_banner_text h1 {
+	font-size: 30px;
+	padding-top: 70px;
+	color: #000;
+}
+.analytics_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+/*************************
+   Career Website
+*************************/
+
+.career_website_banner{
+		background:#f5f6f8;
+	min-height:390px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_img{
+	width:40%;
+	float:right;
+	margin-top:60px;
+	height:auto;
+
+}
+
+.career_website_banner_text{
+	width:50%;
+	float:left;
+	}
+
+.career_website_banner_text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	color: #000;
+	line-height:40px;
+}
+.career_website_banner_text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}	
+
+/*************************
+   Applicant Tracking Inner
+*************************/
+
+.banner_applicant_tracking{
+	background:#fff;
+	min-height:305px; 
+	border-bottom:#ddd solid 1px;
+	border-top:#ddd solid 1px;
+	width:100%;
+	background-position: center top;
+	margin:auto;
+	}
+.banner_applicant_tracking_img{
+    background:#fff;
+	width:70%;
+	margin:auto;
+	}
+	
+.banner_applicant_tracking_text{
+	margin:auto;
+	width:90%;
+	text-align:center;
+	
+	}
+.banner_applicant_tracking_text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.banner_applicant_tracking_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}	
+
+
+.applicant_tracking_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.applicant_tracking_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-400.jpg) no-repeat left bottom;
+	width: 295px;
+	height: 340px;
+	float: left;
+}
+.applicant_tracking_banner_inner_text {
+	width: 54%;
+	height: 100%;
+	float: left;
+	margin-left: 40px;
+}
+.applicant_tracking_banner_inner_text h1 {
+	font-size: 30px;
+	line-height:40px;
+	padding-top: 40px;
+}
+.applicant_tracking_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Hiring Team Inner
+*************************/
+
+.hiring_team_inner_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.hiring_team_inner_banner_img {
+	background: url(../../../img/hiring-team-inner-med.jpg) no-repeat left bottom;
+	width: 370px;
+	height: 299px;
+	float: right;
+}
+.hiring_team_inner_banner_text {
+	width: 49%;
+	height: 100%;
+	float: left;
+	margin-left: 0px;
+}
+.hiring_team_inner_banner_text h1 {
+	font-size: 32px;
+	padding-top: 30px;
+	line-height:35px;
+}
+.hiring_team_inner_banner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+/*************************
+   Manage Interviewers Inner
+*************************/
+	.manage_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-med.jpg) no-repeat center; 
+	min-height:440px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+.manage_interviewers_banner_inner_text{
+	margin-left:0px;
+	float:left;
+	width:55%;
+	}
+.manage_interviewers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	color: #fff;
+	line-height:40px;
+}
+.manage_interviewers_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}	
+
+
+
+/*************************
+   Recruitment Agencies Inner
+*************************/
+
+.recruitment_agencies_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+}
+
+
+.recruitment_agencies_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-370.jpg) no-repeat bottom;
+	width: 234px;
+	height: 414px;
+	float: right;
+}
+.recruitment_agencies_banner_inner_text {
+	width: 65%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 50px;
+	line-height: 35px;
+}
+.recruitment_agencies_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/***************************
+  Interview Scheduling Inner
+***************************/
+
+.interview_scheduling_banner_inner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_inner_img {
+	width: 300px;
+	height: 350px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-med.png) no-repeat bottom;
+}
+.interview_scheduling_banner_inner_text {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.interview_scheduling_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+
+/****************************
+   Online Assessments Inner 
+****************************/
+
+.online_assessments_banner_inner {
+	width:100%;
+	min-height:377px; 
+	border-bottom:#ddd solid 1px;
+	background: url(../../../img/online-assessment-inner-med.jpg) no-repeat bottom;
+
+}
+
+.online_assessments_banner_inner_text {
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.online_assessments_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	line-height: 35px;
+}
+.online_assessments_banner_inner_text h2 {
+	font-size: 18px;
+	line-height: 35px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+
+
+/*************************
+   Analytics Inner
+*************************/
+
+.analytics_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-analytics-med.jpg) no-repeat center #eff0f2;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_inner_text{
+	float:right;
+	width:50%;
+	}
+.analytics_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	color: #000;
+	line-height:35px;
+}
+.analytics_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}	
+
+
+/*********************
+ Hire Interviewers Inner
+*********************/
+.hire_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:390px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_inner_text{
+	margin-left:10px;
+	float:left;
+	width:60%;
+	}
+.hire_interviewers_banner_inner_text h1 {
+	font-size: 30x;
+	padding-top: 60px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*********************
+ Background Verification Inner
+*********************/
+.background_verification_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_inner_text{
+	float:left;
+	width:51%;
+	}
+.background_verification_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top:70px;
+	color: #000;
+	line-height:35px;
+	
+}
+.background_verification_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+/*************************
+   Career Website Inner
+*************************/
+
+.career_website_banner_inner{
+	background:#f5f6f8;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_inner_img{
+	width:50%;
+	float:left;
+	margin-top:35px;
+	height:auto;
+
+}
+
+.career_website_banner_inner_text{
+	width:45%;
+	float:right;
+	}
+
+.career_website_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	color: #000;
+	line-height:35px;
+}
+.career_website_banner_inner_text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+
+
+/*********************
+ Call Conference Inner
+*********************/
+.call_conference_banner_inner{
+	background:#fff; 
+	min-height:400px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+.call_conference_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-med.jpg) no-repeat left; 
+	float:left;
+	width:332px;
+	height:395px;
+	}	
+
+.call_conference_banner_inner_text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+.call_conference_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 70px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#headerImage {
+    background:url(../../../img/about-us-md.jpg) no-repeat center center #fff;
+    height: 500px;
+    max-width: 100%;
+    width: 100%;
+}
+.play{background:url(../../../img/play-button.png) no-repeat;
+    font-size:0;
+	height:154px;
+	left:42%;
+	margin-top:-25px;
+	margin-left:-25px;
+	position:absolute;
+	top:50%;
+	width:154px;
+	margin-top:175px;
+	}
+	
+
+/*************************
+  HIRE AGENCIES
+*************************/
+
+
+.hire-agencies-banner {
+    background:url(../../../img/sliders/revolution/talent-pool1.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #606060 solid 1px;
+	text-align: center;
+}
+
+
+.hire-agencies-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:5px 0 30px 20px;
+}
+.hire-agencies-banner-text h1 {
+	font-size: 32px;
+	padding-top: 20px;
+	color:#fff;
+	padding-left:26px;
+	line-height:35px;
+}
+.hire-agencies-banner-text h4 {
+	font-size: 16px;
+	line-height: 28px;
+	color:#fff
+}
+
+/*************************
+  Toppers Database
+*************************/
+
+.toppers-database-banner {
+    background:url(../../../img/sliders/revolution/toppers-database.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.toppers-database-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:5px 0 30px 20px;
+}
+.toppers-database-banner-text h1 {
+	font-size: 32px;
+	padding-top: 20px;
+	color:#fff;
+	padding-left:21px;
+}
+.toppers-database-banner-text h4 {
+	font-size: 16px;
+	line-height: 28px;
+	color:#fff
+}
+
+/*********************
+  social-recruiting
+*********************/
+
+.social-recruiting-banner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+
+
+}
+
+.social-recruiting-banner-img {
+	width: 400px;
+	height: 350px;
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-med2.jpg) no-repeat;
+}
+.social-recruiting-banner-text {
+	width: 42%;
+	height: auto;
+	float: right;
+	margin-left:20px;
+}
+.social-recruiting-banner-text h1 {
+	font-size: 32px;
+	padding-top: 20px;
+	line-height: 45px;
+}
+
+.social-recruiting-banner-text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/*********************
+  BULK EMAILS
+*********************/
+
+.bulk-emails-banner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+
+
+}
+
+.bulk-emails-banner-img {
+	width: 282px;
+	height: 320px;
+	float: right;
+	background: url(../../../img/sliders/revolution/send-bulk-emails-ats-med.jpg) no-repeat bottom;
+}
+.bulk-emails-banner-text {
+	width: 60%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.bulk-emails-banner-text h1 {
+	font-size: 32px;
+	padding-top: 50px;
+	line-height: 35px;
+}
+
+.bulk-emails-banner-text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant-tracking-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.applicant-tracking-banner-text {
+	margin-left:10px;
+	float:right;
+	width:68%;
+}
+.applicant-tracking-banner-text h1 {
+    font-size: 32px;
+	padding-top: 65px;
+	line-height: 45px;
+}
+.applicant-tracking-banner-text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+.testimonials-border{
+	border-right:#ddd solid 0px !important;
+	height:112px !important;
+	
+	}
+	
+	/*********************************
+   Applicant Tracking Inner Page
+*********************************/
+
+.applicant-tracking-inner-page-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	border-top: #ddd solid 1px;
+}
+.applicant-tracking-inner-page-banner-text {
+	margin-left:10px;
+	float:right;
+	width:68%;
+}
+.applicant-tracking-inner-page-banner-text h1 {
+    font-size: 32px;
+	padding-top: 65px;
+	line-height: 40px;
+}
+.applicant-tracking-inner-page-banner-text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*********************
+  social-recruiting Inner page
+*********************/
+
+.social-recruiting-inner-page-banner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+
+
+}
+
+.social-recruiting-inner-page-banner-img {
+	width: 400px;
+	height: 350px;
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-med2.jpg) no-repeat;
+}
+.social-recruiting-inner-page-banner-text {
+	width: 42%;
+	height: auto;
+	float: right;
+	margin-left:20px;
+}
+.social-recruiting-inner-page-banner-text h1 {
+	font-size: 32px;
+	padding-top: 20px;
+	line-height: 35px;
+	text-transform:uppercase;
+}
+
+.social-recruiting-inner-page-banner-text h4 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.page-container 
+{
+    margin-top: 128px;
+}
+
+/*************************
+   Key Features
+*************************/
+.key_features{
+	width:100%;
+	height:auto;
+	font-weight: 200;
+	}
+
+.border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:150px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+	
+	.bottom-form-box{
+	width:70%;
+	margin-left:0px;
+	margin-right: 50px;
+	}
+.bottom-form{
+    float:left;
+	width:75%;
+	margin-right:20px;
+  }
+  
+.bottom-form-btn{
+	float:left;
+	width:15%;
+	
+	}
+	
+}
+ @media only screen and (min-width: 625px) and (max-width: 767px) {
+	 
+/*************************
+   Main Banner
+*************************/	
+	 
+.main_banner {
+	background: url(../../../img/sliders/revolution/bg-homepage-991698d.jpg?111) no-repeat center;
+	min-height: 460px;
+	border-bottom: #ddd solid 1px;
+	width: 100%;
+	margin-top: 90px;
+}
+.main_banner_text {
+	width: 52%;
+	height: 100%;
+	float: right;
+	margin-left: 40px;
+}
+.main_banner_text h1 {
+	font-size: 36px;
+	padding-top: 70px;
+	text-transform: uppercase;
+	color: #f42c2e;
+}
+
+.main_banner_text h2 {
+	font-size: 22px;
+	margin:0;
+	line-height:25px;
+}
+.main_banner_text h3 {
+	font-size: 16px;
+	padding-top: 20px;
+	line-height:26px
+}
+.main_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant_tracking_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.applicant_tracking_banner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-260.jpg) no-repeat left bottom;
+	width: 253px;
+	height: 400px;
+	float: left;
+}
+.applicant_tracking_banner_text {
+	width: 53%;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+}
+.applicant_tracking_banner_text h1 {
+	font-size: 29px;
+	padding-top: 40px;
+	line-height:35px;
+}
+.applicant_tracking_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+  Job Boards
+*************************/
+.job_boards_banner {
+	background: #f5f6f8;
+	width: 100%;
+	min-height: 250px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+.job_boards_banner_img {
+	width: 90%;
+	text-align: center;
+	margin:auto;
+}
+
+.job_boards_banner_text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+
+.job_boards_banner_text h1 {
+	font-size: 30px;
+	padding-top: 25px;
+}
+.job_boards_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Recruitment Agencies
+*************************/
+.recruitment_agencies_banner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-240.jpg) no-repeat bottom;
+	width: 190px;
+	height: 353px;
+	float: right;
+}
+.recruitment_agencies_banner_text {
+	width: 60%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_text h1 {
+	font-size: 30px;
+	padding-top: 40px;
+	line-height: 40px;
+}
+.recruitment_agencies_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*********************
+   Hiring Team 
+*********************/
+.hiring_team_banner{
+	min-height:350px;
+	}
+.hiring_team_banner_img {
+	width: 300px;
+	height: 340px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-hiring-team-med1.png) no-repeat center left;
+}
+.hiring_team_banner_text {
+	width: 47%;
+	height: auto;
+	float: right;
+}
+.hiring_team_banner_text h1 {
+	font-size: 30px;
+	padding-top: 60px;
+	line-height: 35px;
+}
+.hiring_team_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+/*********************
+   Online Assessments 
+*********************/
+
+.online_assessments_banner {
+	width:100%;
+	min-height:330px; 
+	border-bottom:#ddd solid 1px;
+
+}
+
+.online_assessments_banner_img {
+	width: 250px;
+	height: 357px;
+	float: left;
+	background: url(../../../img/sliders/revolution/banner-onlinetests-med2.jpg) no-repeat bottom;
+}
+.online_assessments_banner_text {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.online_assessments_banner_text h1 {
+	font-size: 30px;
+	padding-top: 30px;
+	line-height: 35px;
+}
+.online_assessments_banner_text h2 {
+	font-size: 18px;
+	line-height: 25px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_text h4 {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.interview_scheduling_banner {
+	min-height:340px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_img {
+	width: 250px;
+	height: 340px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-med1.png) no-repeat bottom;
+}
+.interview_scheduling_banner_text {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.interview_scheduling_banner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*********************
+ Call Conference
+*********************/
+.call_conference_banner{
+	background:#fff; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+
+.call_conference_banner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-med1.jpg) no-repeat left; 
+	float:left;
+	width:269px;
+	height:320px;
+	}	
+
+.call_conference_banner_text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+	
+
+.call_conference_banner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*********************
+ Hire Interviewers
+*********************/
+.hire_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	width:65%;
+	}
+.hire_interviewers_banner_text h1 {
+	font-size: 30px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*********************
+ Background Verification
+*********************/
+.background_verification_banner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_text{
+	float:left;
+	}
+.background_verification_banner_text h1 {
+	font-size: 30px;
+	padding-top: 60px;
+	color: #000;
+	line-height:35px;
+	
+}
+.background_verification_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*********************
+  Manage Interviewers
+*********************/
+.manage_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-med1.jpg) no-repeat center; 
+	min-height:377px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+	
+.manage_interviewers_banner_text{
+	margin-left:10px;
+	float:left;
+	width:55%;
+	}
+.manage_interviewers_banner h1 {
+	font-size: 30px;
+	padding-top: 20px;
+	color: #fff;
+}
+.manage_interviewers_banner h4 {
+	font-size: 16px;
+	line-height: 26px;
+}		
+
+
+/*************************
+   Analytics
+*************************/
+
+.analytics_banner{
+	background:url(../../../img/sliders/revolution/banner-analytics-med.jpg) no-repeat center #eff0f2;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_text{
+	margin-left:10px;
+	width:50%;
+	float:right;
+	}
+.analytics_banner_text h1 {
+	font-size: 30px;
+	padding-top: 40px;
+	color: #000;
+}
+.analytics_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+/*************************
+   Career Website
+*************************/
+
+.career_website_banner{
+	background:#f5f6f8;
+	min-height:320px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_img{
+	width:40%;
+	float:right;
+	margin-top:45px;
+	height:auto;
+
+}
+
+.career_website_banner_text{
+	width:45%;
+	float:left;
+	}
+.career_website_banner_text h1 {
+	font-size: 30px;
+	padding-top: 50px;
+	color: #000;
+	line-height:35px;
+}
+.career_website_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+
+/*************************
+   Applicant Tracking Inner
+*************************/
+
+.banner_applicant_tracking{
+	background:#fff;
+	min-height:380px; 
+	border-bottom:#ddd solid 1px;
+	border-top:#ddd solid 1px;
+	width:100%;
+	background-position: center top;
+	}
+	
+.banner_applicant_tracking_img{
+    background:#fff;
+	width:65%;
+	margin:auto;
+	}
+.banner_applicant_tracking_text{
+	margin:auto;
+	width:90%;
+	text-align:center;
+	}
+.banner_applicant_tracking_text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.banner_applicant_tracking_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+
+.applicant_tracking_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.applicant_tracking_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-260.jpg) no-repeat left bottom;
+	width: 253px;
+	height: 400px;
+	float: left;
+}
+.applicant_tracking_banner_inner_text {
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-left: 40px;
+}
+.applicant_tracking_banner_inner_text h1 {
+	font-size: 30px;
+	line-height:40px;
+	padding-top: 20px;
+}
+.applicant_tracking_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Hiring Team Inner
+*************************/
+
+.hiring_team_inner_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.hiring_team_inner_banner_img {
+	background: url(../../../img/hiring-team-inner-med.jpg) no-repeat left bottom;
+	width: 363px;
+	height: 336px;
+	float: right;
+}
+.hiring_team_inner_banner_text {
+	width: 38%;
+	height: 100%;
+	float: left;
+	margin-left: 0px;
+}
+.hiring_team_inner_banner_text h1 {
+	font-size: 30px;
+	padding-top: 30px;
+	line-height:35px;
+}
+.hiring_team_inner_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Manage Interviewers Inner
+*************************/
+
+.manage_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-med1.jpg) no-repeat center; 
+	min-height:377px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+	
+
+.manage_interviewers_banner_inner_text{
+	margin-left:0px;
+	float:left;
+	width:60%;
+	}
+.manage_interviewers_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 40px;
+	color: #fff;
+	line-height:35px;
+}
+.manage_interviewers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+/*************************
+   Recruitment Agencies Inner
+*************************/
+
+.recruitment_agencies_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+}
+
+
+.recruitment_agencies_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-240.jpg) no-repeat bottom;
+	width: 183px;
+	height: 353px;
+	float: right;
+}
+.recruitment_agencies_banner_inner_text {
+	width: 68%;
+	height: auto;
+	float: left;
+}
+.recruitment_agencies_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 20px;
+	line-height: 35px;
+}
+.recruitment_agencies_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*****************************
+  Interview Scheduling Inner
+*****************************/
+
+.interview_scheduling_banner_inner {
+	min-height:340px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_inner_img {
+	width: 250px;
+	height: 340px;
+	float: right;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-med1.png) no-repeat bottom;
+}
+.interview_scheduling_banner_inner_text {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.interview_scheduling_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 30px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+
+
+
+/****************************
+   Online Assessments Inner 
+****************************/
+
+.online_assessments_banner_inner {
+	width:100%;
+	min-height:330px; 
+	border-bottom:#ddd solid 1px;
+	background: url(../../../img/online-assessment-inner-med1.jpg) no-repeat bottom;
+
+}
+
+.online_assessments_banner_inner_text {
+	width: 49%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.online_assessments_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+
+.online_assessments_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*************************
+   Analytics Inner
+*************************/
+
+.analytics_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-analytics-med.jpg) no-repeat center #eff0f2;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+}
+
+.analytics_banner_inner_text{
+	float:right;
+	width:50%;
+	}
+.analytics_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 40px;
+	color: #000;
+	line-height:35px;
+}
+.analytics_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+/*********************
+ Hire Interviewers Inner
+*********************/
+.hire_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-big.jpg) no-repeat center; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+
+
+.hire_interviewers_banner_inner_text{
+	margin-left:10px;
+	float:left;
+	width:65%;
+	}
+.hire_interviewers_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top:40px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/******************************
+ Background Verification Inner
+******************************/
+.background_verification_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-background-verification-big.jpg) no-repeat center; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.background_verification_banner_inner_text{
+	float:left;
+	width:50%;
+	}
+.background_verification_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 40px;
+	color: #000;
+	line-height:35px;
+	
+}
+.background_verification_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*************************
+   Career Website Inner
+*************************/
+
+.career_website_banner_inner{
+	background:#f5f6f8;
+	min-height:320px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.career_website_banner_inner_img{
+	width:50%;
+	float:left;
+	margin-top:25px;
+	height:auto;
+
+}
+
+.career_website_banner_inner_text{
+	width:45%;
+	float:right;
+	}
+.career_website_banner_inner_text h1 {
+	font-size: 32px;
+	padding-top: 30px;
+	color: #000;
+	line-height:35px;
+}
+.career_website_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+/*********************
+ Call Conference Inner
+*********************/
+.call_conference_banner_inner{
+	background:#fff; 
+	min-height:340px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	}
+
+.call_conference_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-med1.jpg) no-repeat left; 
+	float:left;
+	width:269px;
+	height:320px;
+	}	
+
+.call_conference_banner_inner_text{
+	margin-left:10px;
+	float:right;
+	width:50%;
+	}
+	
+
+.call_conference_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+#headerImage {
+    background:url(../../../img/about-us-lg.jpg) no-repeat center center #fff;
+    height: 500px;
+    max-width: 100%;
+    width: 100%;
+}
+.play{background:url(../../../img/play-button.png) no-repeat;
+    font-size:0;
+	height:154px;
+	left:40%;
+	margin-top:-25px;
+	margin-left:-25px;
+	position:absolute;
+	top:50%;
+	width:154px;
+	margin-top:175px;
+	}
+
+
+/*************************
+  HIRE AGENCIES
+*************************/
+
+
+.hire-agencies-banner {
+    background:url(../../../img/sliders/revolution/talent-pool1.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #606060 solid 1px;
+	text-align: center;
+}
+
+
+.hire-agencies-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:10px 0 30px 20px;
+}
+.hire-agencies-banner-text h1 {
+	font-size: 32px;
+	padding-top: 20px;
+	color:#fff;
+	padding-left:26px;
+	line-height:35px;
+}
+.hire-agencies-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+	color:#fff
+}
+
+/*************************
+  Toppers Database
+*************************/
+
+.toppers-database-banner {
+    background:url(../../../img/sliders/revolution/toppers-database.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.toppers-database-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:20px 0 30px 20px;
+}
+.toppers-database-banner-text h1 {
+	font-size: 32px;
+	padding-top: 20px;
+	color:#fff;
+	padding-left:21px;
+	line-height:35px;
+}
+.toppers-database-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+	color:#fff
+}
+
+
+/*********************
+  social-recruiting
+*********************/
+
+
+.social-recruiting-banner {
+	min-height:370px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-sm698d.jpg?111) no-repeat;
+
+
+}
+
+
+.social-recruiting-banner-text {
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-left:20px;
+}
+.social-recruiting-banner-text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.social-recruiting-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.bulk-emails-banner {
+	min-height:340px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+}
+
+.bulk-emails-banner-img {
+	width: 250px;
+	height: 310px;
+	float: right;
+	background: url(../../../img/sliders/revolution/send-bulk-emails-ats-med1.jpg) no-repeat bottom;
+}
+.bulk-emails-banner-_text {
+	width: 55%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+}
+.bulk-emails-banner-text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.bulk-emails-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Applicant Tracking
+*************************/
+
+
+.applicant-tracking-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies-med.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.applicant-tracking-banner-text {
+	   margin-left:10px;
+	float:right;
+	width:72%;
+}
+.applicant-tracking-banner-text h1 {
+    font-size: 32px;
+	padding-top: 85px;
+	line-height: 35px;
+}
+.applicant-tracking-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+.testimonials-border{
+	border-right:#ddd solid 0px !important;
+	height:112px !important;
+	
+	}
+
+
+
+.testimonial-padding{
+	padding-left:40px;
+	}
+	
+	
+	/*********************************
+   Applicant Tracking Inner Page
+*********************************/
+
+
+.applicant-tracking-inner-page-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies-med.jpg) no-repeat center; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	border-top: #ddd solid 1px;
+}
+.applicant-tracking-inner-page-banner-text {
+	   margin-left:10px;
+	float:right;
+	width:60%;
+}
+.applicant-tracking-inner-page-banner-text h1 {
+    font-size: 30px;
+	padding-top: 85px;
+	line-height: 35px;
+}
+.applicant-tracking-inner-page-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*********************
+  social-recruiting Inner Page
+*********************/
+
+
+.social-recruiting-inner-page-banner {
+	min-height:370px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+
+
+}
+
+.social-recruiting-inner-page-banner-img {
+	width: 320px;
+	height: 350px;
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-sm2.jpg) no-repeat center;
+}
+.social-recruiting-inner-page-banner-text {
+	width: 42%;
+	height: auto;
+	float: right;
+	margin-left:20px;
+}
+.social-recruiting-inner-page-banner-text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.social-recruiting-inner-page-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+	
+
+/*************************
+   Key Features
+*************************/
+.key_features{
+	width:70%;
+	height:auto;
+	margin:auto;
+	font-weight: 200;
+	}
+
+.border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:150px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+	
+	.page-container
+{
+    margin-top: 90px;
+}
+
+.bottom-form-box{
+	width:70%;
+	margin-left:0px;
+	margin-right: 90px;
+	}
+.bottom-form{
+    float:left;
+	width:75%;
+	margin-right:20px;
+  }
+  
+.bottom-form-btn{
+	float:left;
+	width:15%;
+	
+	}
+
+}
+ @media only screen and (min-width: 480px) and (max-width: 624px) {
+.banner, .bannercontainer {
+	width: 480px;
+	height: 250px;
+}
+/*************************
+   Main Banner
+*************************/	
+
+.main_banner {
+	background: url(../../../img/sliders/revolution/bg-homepage-480698d.jpg?111) no-repeat center;
+	min-height: 560px;
+	border-bottom: #ddd solid 1px;
+	width: 100%;
+	margin-top: 90px;
+}
+.main_banner_text {
+	width: 60%;
+	height: 100%;
+	float: right;
+	margin-left: 40px;
+	text-align: center;
+}
+.main_banner_text h1 {
+	font-size: 32px;
+	padding-top: 10px;
+	text-transform: uppercase;
+	color: #f42c2e;
+}
+
+.main_banner_text h2 {
+	font-size: 20px;
+	margin:0;
+	line-height:25px;
+}
+.main_banner_text h3 {
+	font-size: 16px;
+	padding-top: 28px;
+	line-height:26px
+}
+.main_banner_text h4 {
+	font-size: 18px;
+	line-height: 30px;
+}
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant_tracking_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+	padding-bottom:20px;
+}
+.applicant_tracking_banner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 310px;
+	margin:auto;
+}
+.applicant_tracking_banner_text {
+	width: 90%;
+	height: 100%;
+	margin-left:4%;
+	text-align: center;
+}
+.applicant_tracking_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	line-height:35px;
+}
+.applicant_tracking_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+/*************************
+  Job Boards
+*************************/
+
+.job_boards_banner {
+	background: #f5f6f8;
+	width: 100%;
+	min-height: 220px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+}
+.job_boards_banner_img {
+	width: 100%;
+	margin:auto;
+}
+
+.job_boards_banner_text {
+	width: 100%;
+	margin:auto;
+}
+
+
+.job_boards_banner_text h1 {
+	font-size: 28px;
+	padding-top: 20px;
+	line-height: 25px;
+}
+.job_boards_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Recruitment Agencies
+*************************/
+
+
+.recruitment_agencies_banner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 250px;
+	margin:auto;
+	
+}
+.recruitment_agencies_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.recruitment_agencies_banner_text h1 {
+	font-size: 28px;
+	padding-top: 25px;
+	line-height: 40px;
+}
+.recruitment_agencies_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*********************
+   Hiring Team 
+*********************/
+.hiring_team_banner{
+	 min-height:300px;
+	}
+.hiring_team_banner_img {
+	width: 100%;
+	height: 260px;
+	background: url(../../../img/sliders/revolution/banner-hiring-team-med1.png) no-repeat center;
+	margin:auto;
+	
+}
+.hiring_team_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	text-align:center;
+	margin-left:5%;
+	padding-bottom:20px;
+	
+}.hiring_team_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	line-height: 35px;
+}
+.hiring_team_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*********************
+   Online Assessments 
+*********************/
+
+.online_assessments_banner {
+	width:100%;
+	min-height:330px; 
+	border-bottom:#ddd solid 1px;
+
+}
+
+.online_assessments_banner_img {
+	width: 100%;
+	height: 199px;
+	margin:auto;
+	background: url(../../../img/sliders/revolution/banner-onlinetests-sm.jpg) no-repeat center;
+
+}
+.online_assessments_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-left:4%;
+	text-align:center;
+	padding-bottom:20px;
+	}
+.online_assessments_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	line-height: 30px;
+}
+.online_assessments_banner_text h2 {
+	font-size: 16px;
+	line-height: 25px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.interview_scheduling_banner {
+	min-height:265px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+
+
+}
+
+.interview_scheduling_banner_img {
+	width: 100%;
+	height: 220px;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-sm1.png) no-repeat center;
+    margin:auto;
+}
+.interview_scheduling_banner_text {
+	width: 90%;
+	height: auto;
+	margin-left:4%;
+	text-align:center;
+	padding-bottom:20px;
+}
+.interview_scheduling_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+
+/*********************
+ Call Conference
+*********************/
+.call_conference_banner{
+	background:#fff; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.call_conference_banner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+
+.call_conference_banner_text{
+	width:90%;
+	text-align:center;
+	margin-right:7%;
+	
+	}
+	
+	
+.call_conference_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*********************
+ Hire Interviewers
+*********************/
+.hire_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-sm.jpg) no-repeat top center; 
+	min-height:320px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding-bottom:20px;
+
+	}
+
+.hire_interviewers_banner_text{
+	text-align:center;
+	margin-left:4%;
+	width:90%;
+	padding-top:190px;
+	}
+	
+.hire_interviewers_banner_text h1 {
+	font-size: 28px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*********************
+ Background Verification
+*********************/
+.background_verification_banner{
+	background:#fff; 
+	min-height:270px;
+	border-bottom:#ddd solid 0px;
+	width:100%;
+	margin:auto;
+	}
+	
+.background_verification_banner_img{
+	background:url(../../../img/sliders/revolution/banner-background-verification-sm.jpg) no-repeat  bottom; 
+	min-height:270px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	}
+
+.background_verification_banner_text{
+	width:90%;
+	text-align:center;
+	margin-left:8%;
+	}
+	
+.background_verification_banner_text h1 {
+	font-size: 28px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.background_verification_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*********************
+  Manage Interviewers
+*********************/
+.manage_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-sm1.jpg) no-repeat center top #1b1c20; 
+	min-height:408px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding-bottom:20px;
+
+	}
+	
+.manage_interviewers_banner_text{
+	margin-left:5%;
+	width:90%;
+	text-align:center;
+	padding-bottom:20px;
+	
+	}
+
+.manage_interviewers_banner h1 {
+	font-size: 28px;
+	padding-top:200px;
+	color: #fff;
+}
+.manage_interviewers_banner h4 {
+	font-size: 14px;
+	line-height: 24px;
+}		
+
+/*************************
+   Analytics
+*************************/
+.analytics_banner{
+	background:#eff0f2;
+	min-height:310px; 
+	border-bottom:#ddd solid 1px;
+	padding-bottom:15px;
+}
+.analytics_banner_img{
+	background:url(../../../img/sliders/revolution/banner-analytics-sm1.jpg) no-repeat center;
+	width:100%;
+	height:273px; 
+	margin:auto;
+}
+
+.analytics_banner_text{
+	text-align:center;
+	width:90%;
+	padding-bottom:20px;
+	margin-left:5%;
+	}
+.analytics_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	color: #000;
+}
+.analytics_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}	
+
+
+/*************************
+   Career Website
+*************************/
+
+.career_website_banner{
+	background:#f5f6f8;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	margin:auto;
+}
+.career_website_banner_img{
+	width:70%;
+	height:auto;
+	clear:both;
+	margin-left:8%;
+	margin-top:25px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.career_website_banner_text{
+	width:100%;
+	text-align:left;
+	margin-left:8%;
+	}
+.career_website_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	color: #000;
+	line-height:35px
+}
+.career_website_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}	
+
+/*************************
+   Applicant Tracking Inner
+*************************/
+
+.banner_applicant_tracking{
+	background:#fff;
+	min-height:380px; 
+	border-bottom:#ddd solid 1px;
+	border-top:#ddd solid 1px;
+	width:100%;
+	background-position: center top;
+	}
+	
+.banner_applicant_tracking_img{
+    background:#fff;
+	width:65%;
+	margin:auto;
+	}
+
+
+.banner_applicant_tracking_text{
+	margin:auto;
+	width:90%;
+	text-align:center;
+	}
+.banner_applicant_tracking_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height:35px;
+	color: #000;
+}
+.banner_applicant_tracking_text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+.applicant_tracking_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+	margin:auto;
+}
+.applicant_tracking_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 310px;
+	margin:auto;
+}
+.applicant_tracking_banner_inner_text {
+	width: 90%;
+	height:auto;
+	text-align:center;
+	margin:auto auto auto 10px;
+}
+.applicant_tracking_banner_inner_text h1 {
+	font-size: 28px;
+	line-height:35px;
+	padding-top: 0px;
+}
+.applicant_tracking_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*************************
+   Hiring Team Inner
+*************************/
+
+.hiring_team_inner_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+	margin:auto;
+}
+.hiring_team_inner_banner_img {
+	background: url(../../../img/hiring-team-inner-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 200px;
+		clear:both;
+		margin:auto;
+}
+.hiring_team_inner_banner_text {
+	width: 90%;
+	height: 100%;
+	margin:auto auto auto 10px;
+	text-align:center;
+
+}
+.hiring_team_inner_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height:35px;
+}
+.hiring_team_inner_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Recruitment Agencies Inner
+*************************/
+
+.recruitment_agencies_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+	margin:auto;
+}
+
+
+.recruitment_agencies_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 250px;
+	margin:auto;
+
+}
+.recruitment_agencies_banner_inner_text {
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin:auto auto auto 10px;
+
+}
+.recruitment_agencies_banner_inner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.recruitment_agencies_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/*********************
+  Manage Interviewers Inner
+*********************/
+.manage_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-sm1.jpg) no-repeat center top; 
+	min-height:350px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+	
+.manage_interviewers_banner_inner_text{
+	margin-left:10px;
+	margin:auto auto auto 10px;
+	width:90%;
+	text-align:center;
+	}
+.manage_interviewers_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top:200px;
+	color: #fff;
+	line-height:35px;
+}
+.manage_interviewers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+
+/******************************
+  Interview Scheduling Inner
+******************************/
+
+.interview_scheduling_banner_inner {
+	min-height:265px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+	margin:auto;
+}
+
+.interview_scheduling_banner_inner_img {
+	width: 100%;
+	height: 210px;
+	background: url(../../../img/interview-scheduling-inner-sm.png) no-repeat center;
+	margin:auto;
+}
+.interview_scheduling_banner_inner_text {
+	width: 90%;
+	height: auto;
+	text-align:center;
+	margin:auto auto auto 20px;
+}
+.interview_scheduling_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+
+/****************************
+   Online Assessments Inner
+****************************/
+
+.online_assessments_banner_inner {
+	width:100%;
+	min-height:auto; 
+	border-bottom:#ddd solid 1px;
+	background:#fff;
+	margin:auto;
+
+}
+.online_assessments_banner_inner_img {
+	width:100%;
+	min-height:320px; 
+	border-bottom:#ddd solid 1px;
+	background: url(../../../img/online-assessment-inner-sm.jpg) no-repeat bottom;
+	margin:auto;
+
+}
+
+
+.online_assessments_banner_inner_text {
+	width: 90%;
+	height: auto;
+	margin:auto auto auto 15px;
+	text-align:center;
+	}
+.online_assessments_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top:10px;
+	line-height: 35px;
+}
+
+
+.online_assessments_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*************************
+   Features Home
+*************************/
+
+.features_home h1 {
+	font-size: 32px;
+	padding-top: 15px;
+	line-height: 35px;
+}
+.features_home h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Analytics Inner
+*************************/
+
+.analytics_banner_inner{
+	background:#f5f6f8;
+	min-height:250px; 
+	border-bottom:#ddd solid 1px;
+	padding-bottom:15px;
+}
+.analytics_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-analytics-sm1.jpg) no-repeat center;
+	width:100%;
+	height:185px; 
+	margin:auto;
+}
+
+.analytics_banner_inner_text{
+	text-align:center;
+	width:90%;
+	margin:auto auto auto 20px;
+	
+	}
+.analytics_banner_inner h1 {
+	font-size: 30px;
+	padding-top:0px;
+	color: #000;
+	line-height:35px;
+}
+.analytics_banner_inner h4 {
+	font-size: 16px;
+	line-height: 24px;
+}	
+
+/*********************
+ Hire Interviewers Inner
+*********************/
+.hire_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-sm.jpg) no-repeat top center; 
+	min-height:320px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding-bottom:20px;
+
+	}
+
+.hire_interviewers_banner_inner_text{
+	text-align:center;
+	margin-left:4%;
+	width:90%;
+	padding-top:190px;
+	}
+	
+.hire_interviewers_banner_inner_text h1 {
+	font-size: 28px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/******************************
+ Background Verification Inner
+******************************/
+.background_verification_banner_inner{
+	background:#fff; 
+	min-height:270px;
+	border-bottom:#ddd solid 0px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	margin:auto;
+	}
+	
+.background_verification_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-background-verification-sm.jpg) no-repeat  bottom; 
+	min-height:270px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	}
+
+.background_verification_banner_inner_text{
+	width:90%;
+	text-align:center;
+	margin-left:8%;
+	}
+	
+.background_verification_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.background_verification_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Career Website Inner
+*************************/
+
+
+.career_website_banner_inner{
+	background:#f5f6f8;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	margin:auto;
+}
+.career_website_banner_inner_img{
+	width:70%;
+	height:auto;
+	clear:both;
+	margin-left:15%;
+	margin-top:25px;
+}
+
+.career_website_banner_inner_text{
+	width:90%;
+	text-align:center;
+	margin-right:5%;
+	}
+.career_website_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 0px;
+	color: #000;
+	line-height:35px
+}
+.career_website_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}	
+
+
+
+/*********************
+ Call Conference Inner
+*********************/
+.call_conference_banner_inner{
+	background:#fff; 
+	min-height:395px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+
+	}
+	
+	
+.call_conference_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+
+.call_conference_banner_inner_text{
+	width:90%;
+	text-align:center;
+	margin-right:7%;
+	
+	}
+	
+	
+.call_conference_banner_inner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#headerImage {
+    background:url(../../../img/about-us-sm.jpg) no-repeat center center #fff;
+    height: 320px;
+    max-width: 100%;
+    width: 100%;
+}
+.play{background:url(../../../img/play-md.png) no-repeat;
+    font-size:0;
+	height:110px;
+	left:40%;
+	margin-top:-25px;
+	margin-left:-25px;
+	position:absolute;
+	top:50%;
+	width:110px;
+	margin-top:20px;
+	}
+	
+
+/*************************
+  HIRE AGENCIES
+*************************/
+
+
+.hire-agencies-banner {
+    background:url(../../../img/sliders/revolution/talent-pool1.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #606060 solid 1px;
+	text-align: center;
+}
+
+
+.hire-agencies-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:30px 0 30px 20px;
+}
+.hire-agencies-banner-text h1 {
+	font-size: 30px;
+	padding-top:0px;
+	color:#fff;
+	padding-left:26px;
+	line-height:35px;
+}
+.hire-agencies-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+	color:#fff
+}
+
+/*************************
+  Toppers Database
+*************************/
+
+.toppers-database-banner {
+    background:url(../../../img/sliders/revolution/toppers-database.jpg) no-repeat center;
+	width: 100%;
+	min-height:500px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.toppers-database-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:30px 0 30px 20px;
+}
+.toppers-database-banner-text h1 {
+	font-size: 28px;
+	padding-top: 20px;
+	color:#fff;
+	padding-left:21px;
+}
+.toppers-database-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+	color:#fff
+}
+
+/*********************
+  social-recruiting
+*********************/
+
+.social-recruiting-banner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+}
+
+.social-recruiting-banner-img {
+	width: 100%;
+	height: 230px;
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-sm.jpg) no-repeat center;
+}
+.social-recruiting-banner-text {
+	width: 100%;
+	height: auto;
+	text-align:left;
+	float:none !important;
+}
+.social-recruiting-banner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 45px;
+	
+}
+
+.social-recruiting-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*********************
+  BULK EMAILS
+*********************/
+
+.bulk-emails-banner {
+	min-height:265px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+}
+
+.bulk-emails-banner-img {
+	width: 100%;
+	height: 450px;
+	background: url(../../../img/sliders/revolution/send-bulk-emails-ats-sm.jpg) no-repeat center bottom;
+    margin:auto;
+}
+.bulk-emails-banner-text {
+	width: 100%;
+	height: auto;
+	margin-left:8%;
+	text-align:left;
+	padding-bottom:20px;
+}
+.bulk-emails-banner-text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.bulk-emails-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant-tracking-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies-sm.jpg) no-repeat bottom center; 
+	min-height:620px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+
+.applicant-tracking-banner-text {
+	margin-left:10px;
+    text-align:left;
+	width:100%;
+}
+.applicant-tracking-banner-text h1 {
+    font-size: 28px;
+	padding-top: 10px;
+	line-height: 25px;
+}
+.applicant-tracking-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+.testimonials-border{
+	border-right:#ddd solid 0px !important;
+	height:112px !important;
+	
+	}
+.testimonial-padding{
+	padding-left:40px;
+	}
+	
+	/*********************************
+   Applicant Tracking Inner Page
+*********************************/
+
+.applicant-tracking-inner-page-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies-sm.jpg) no-repeat bottom center;
+	min-height:600px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	border-top: #ddd solid 1px;
+}
+
+.applicant-tracking-inner-page-banner-text {
+	margin-left:10px;
+    text-align:center;
+	width:100%;
+}
+.applicant-tracking-inner-page-banner-text h1 {
+    font-size: 30px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.applicant-tracking-inner-page-banner-text h4 {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/*********************
+  social-recruiting Inner Page
+*********************/
+
+.social-recruiting-inner-page-banner {
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+}
+
+.social-recruiting-inner-page-banner-img {
+	width: 100%;
+	height: 300px;
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-sm.jpg) no-repeat center;
+}
+.social-recruiting-inner-page-banner-text {
+	width: 100%;
+	height: auto;
+	text-align:center;
+	
+}
+.social-recruiting-inner-page-banner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 45px;
+	
+}
+
+.social-recruiting-inner-page-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*************************
+   Key Features
+*************************/
+.key_features{
+	width:70%;
+	height:auto;
+	margin:auto;
+	font-weight: 200;
+	}
+.border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:150px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+	
+		.page-container
+{
+    margin-top: 90px;
+}
+.bottom-form-box{
+	width:80%;
+	margin-left:0px;
+	 margin-right:50px;
+	}
+.bottom-form{
+    float:left;
+	margin-right:20px;
+  }
+  
+.bottom-form-btn{
+	float:left;
+	width:15%;
+	
+	}
+.testimonials-margin{ margin-bottom:20px;}	
+
+
+}
+
+
+
+ @media only screen and (min-width: 0px) and (max-width: 479px) {
+.banner, .bannercontainer {
+	width: 320px;
+	height: 167px;
+}
+
+/*************************
+   Main Banner
+*************************/	
+
+.main_banner {
+	background: url(../../../img/sliders/revolution/bg-homepage-480698d.jpg?111) no-repeat center #f6f0e4;
+	min-height: 560px;
+	border-bottom: #ddd solid 1px;
+	width: 100%;
+	 margin-top: 90px;
+}
+.main_banner_text {
+	width: 60%;
+	height: 100%;
+	float: right;
+	margin-left: 40px;
+	text-align: center;
+}
+.main_banner_text h1 {
+	font-size: 32px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	color: #f42c2e;
+}
+
+.main_banner_text h2 {
+	font-size: 20px;
+	margin:0;
+	line-height:25px;
+}
+.main_banner_text h3 {
+	font-size: 16px;
+	padding-top: 10px;
+	line-height:24px
+}
+.main_banner_text h4 {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/*************************
+   Applicant Tracking
+*************************/
+
+.applicant_tracking_banner {
+	background: #fff;
+	min-height: 250px;
+	border-top: #ddd solid 1px;
+	width: 100%;
+	padding:0 0 15px 0
+}
+.applicant_tracking_banner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 310px;
+	margin:auto;
+}
+.applicant_tracking_banner_text {
+	width: 90%;
+	height: 100%;
+	margin-left: 4%;
+	text-align: center;
+}
+.applicant_tracking_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	line-height: 35px;
+}
+.applicant_tracking_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*************************
+  Job Boards
+*************************/
+
+.job_boards_banner {
+	background: #f5f6f8;
+	width: 100%;
+	min-height: 180px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+.job_boards_banner_img {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+
+.job_boards_banner_text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+}
+
+.job_boards_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.job_boards_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Recruitment Agencies
+*************************/
+.recruitment_agencies_banner{
+	min-height:300px;
+	margin:auto;
+  	}
+
+.recruitment_agencies_banner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 250px;
+	margin:auto;
+	
+}
+.recruitment_agencies_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+.recruitment_agencies_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.recruitment_agencies_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*********************
+   Hiring Team 
+*********************/
+.hiring_team_banner {
+	background:#f5f6f8; 
+	min-height:250px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding:0 0 15px 0
+	}
+
+.hiring_team_banner_img {
+	width: 100%;
+	height: 260px;
+	background: url(../../../img/sliders/revolution/banner-hiring-team-med1.png) no-repeat center;
+	margin:auto;
+	
+}
+.hiring_team_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	text-align:center;
+	margin-left:10px;
+	padding-bottom:20px;
+	
+}
+.hiring_team_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	line-height: 35px;
+}
+.hiring_team_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*********************
+   Online Assessments 
+*********************/
+
+.online_assessments_banner {
+	width:100%;
+	min-height:270px; 
+	border-bottom:#ddd solid 1px;
+	padding:0 0 15px 0
+
+}
+
+.online_assessments_banner_img {
+	width: 100%;
+	height: 199px;
+	margin:auto;
+	background: url(../../../img/sliders/revolution/banner-onlinetests-sm.jpg) no-repeat center;
+
+}
+.online_assessments_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-left:12px;
+	text-align:center;
+	}
+.online_assessments_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	line-height: 30px;
+}
+.online_assessments_banner_text h2 {
+	font-size: 16px;
+	line-height: 25px;
+	margin:0; padding:0;
+}
+
+.online_assessments_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*********************
+  Interview Scheduling
+*********************/
+
+.interview_scheduling_banner {
+	min-height:330px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+	margin:auto;
+}
+
+.interview_scheduling_banner_img {
+	width: 100%;
+	height: 220px;
+	background: url(../../../img/sliders/revolution/banner-interview-scheduling-sm1.png) no-repeat center;
+    margin:auto;
+}
+.interview_scheduling_banner_text {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+	text-align:center;
+}
+.interview_scheduling_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/*********************
+ Call Conference
+*********************/
+.call_conference_banner{
+	background:#fff; 
+	min-height:330px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	margin:auto;
+
+	}
+	
+.call_conference_banner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+
+.call_conference_banner_text{
+	width:90%;
+	text-align:center;
+	margin-right:7%;
+	}
+	
+.call_conference_banner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*********************
+ Hire Interviewers
+*********************/
+.hire_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-sm.jpg) no-repeat top center; 
+	min-height:320px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding-bottom:20px;
+
+	}
+
+.hire_interviewers_banner_text{
+	text-align:center;
+	margin-left:4%;
+	width:90%;
+	padding-top:190px;
+	}
+.hire_interviewers_banner_text h1 {
+	font-size: 28px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/*********************
+ Background Verification
+*********************/
+.background_verification_banner{
+	background:#fff; 
+	min-height:250px;
+	width:100%;
+	}
+	
+.background_verification_banner_img{
+	background:url(../../../img/sliders/revolution/banner-background-verification-sm.jpg) no-repeat center bottom; 
+	min-height:270px;
+	border-bottom:#ddd solid 0px;
+	width:100%;
+	}
+
+.background_verification_banner_text{
+	width:90%;
+	text-align:center;
+	}
+	
+.background_verification_banner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:40px;
+	
+}
+.background_verification_banner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*********************
+  Manage Interviewers
+*********************/
+.manage_interviewers_banner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-sm1.jpg) no-repeat center top #1b1c20; 
+	min-height:408px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding-bottom:20px;
+
+	}
+	
+.manage_interviewers_banner_text{
+	margin-left:10px;
+	margin:auto auto auto 10px;
+	width:90%;
+	text-align:center;
+	padding-bottom:20px;
+	}
+.manage_interviewers_banner_text h1 {
+	font-size: 28px;
+	padding-top:200px;
+	color: #fff;
+	line-height:35px;
+}
+.manage_interviewers_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}		
+
+/*************************
+   Analytics
+*************************/
+
+.analytics_banner{
+	background:#eff0f2;
+	min-height:310px; 
+	border-bottom:#ddd solid 1px;
+	padding-bottom:15px;
+}
+.analytics_banner_img{
+	background:url(../../../img/sliders/revolution/banner-analytics-sm1.jpg) no-repeat center;
+	width:100%;
+	height:273px; 
+	margin:auto;
+}
+
+.analytics_banner_text{
+	text-align:center;
+	width:90%;
+	padding-bottom:20px;
+	margin-left:5%;
+	}
+.analytics_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	color: #000;
+}
+.analytics_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}	
+
+
+
+/*************************
+   Career Website
+*************************/
+
+.career_website_banner{
+	background:#f5f6f8;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	margin:auto;
+}
+.career_website_banner_img{
+	width:70%;
+	height:auto;
+	clear:both;
+	margin-left:8%;
+	margin-top:25px;
+	float:left;
+	margin-bottom:20px;
+	
+}
+
+.career_website_banner_text{
+	width:100%;
+	text-align:left;
+	margin-right:8%;
+	}
+.career_website_banner_text h1 {
+	font-size: 28px;
+	padding-top: 0px;
+	color: #000;
+	line-height:35px
+}
+.career_website_banner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}	
+
+
+/*************************
+   Applicant Tracking Inner
+*************************/
+
+.banner_applicant_tracking{
+	background:#fff;
+	min-height:380px; 
+	border-bottom:#ddd solid 1px;
+	border-top:#ddd solid 1px;
+	width:100%;
+	background-position: center top;
+	}
+	
+.banner_applicant_tracking_img{
+    background:#fff;
+	width:70%;
+	margin:auto;
+	}
+
+.banner_applicant_tracking_text{
+	margin:auto;
+	width:90%;
+	text-align:center;
+	}
+.banner_applicant_tracking_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+}
+.banner_applicant_tracking_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}	
+
+.applicant_tracking_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+	margin:auto;
+}
+.applicant_tracking_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-applicants-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 310px;
+	margin:auto;
+}
+.applicant_tracking_banner_inner_text {
+	width: 90%;
+	height:auto;
+	text-align:center;
+	margin:auto auto auto 10px;
+}
+.applicant_tracking_banner_inner_text h1 {
+	font-size: 28px;
+	line-height:35px;
+	padding-top: 0px;
+}
+.applicant_tracking_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+/*************************
+   Hiring Team Inner
+*************************/
+
+.hiring_team_inner_banner {
+	background: #fff;
+	min-height: auto;
+	border-top: #ddd solid 1px;
+	width: 100%;
+}
+.hiring_team_inner_banner_img {
+	background: url(../../../img/hiring-team-inner-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 200px;
+		clear:both;
+		margin:auto;
+}
+.hiring_team_inner_banner_text {
+	width: 90%;
+	height: 100%;
+	margin:auto auto auto 10px;
+	text-align:center;
+
+}
+.hiring_team_inner_banner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height:35px;
+}
+.hiring_team_inner_banner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Recruitment Agencies Inner
+*************************/
+
+.recruitment_agencies_banner_inner {
+	background: #fff;
+	min-height: auto;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 0px;
+	width: 100%;
+	margin:auto;
+}
+
+
+.recruitment_agencies_banner_inner_img {
+	background: url(../../../img/sliders/revolution/banner-agencies-sm.jpg) no-repeat center;
+	width: 100%;
+	height: 250px;
+	margin:auto;
+
+}
+.recruitment_agencies_banner_inner_text {
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin:auto auto auto 10px;
+
+}
+.recruitment_agencies_banner_inner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.recruitment_agencies_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*********************
+  Manage Interviewers
+*********************/
+	
+.manage_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-manage-interviewer-sm1.jpg) no-repeat center top #1b1c20; 
+	min-height:408px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+
+	}
+	
+.manage_interviewers_banner_inner_text{
+	margin-left:10px;
+	margin:auto auto auto 10px;
+	width:90%;
+	text-align:center;
+	}
+.manage_interviewers_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top:200px;
+	color: #fff;
+	line-height:35px;
+}
+.manage_interviewers_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}	
+
+
+
+
+/******************************
+  Interview Scheduling Inner
+******************************/
+
+.interview_scheduling_banner_inner {
+	min-height:265px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#f5f6f8;
+	margin:auto;
+}
+
+.interview_scheduling_banner_inner_img {
+	width: 100%;
+	height: 210px;
+	background: url(../../../img/interview-scheduling-inner-sm.png) no-repeat center;
+	margin:auto;
+}
+.interview_scheduling_banner_inner_text {
+	width: 90%;
+	height: auto;
+	text-align:center;
+	margin:auto auto auto 20px;
+}
+.interview_scheduling_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.interview_scheduling_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/****************************
+   Online Assessments Inner 
+****************************/
+
+.online_assessments_banner_inner {
+	width:100%;
+	min-height:auto; 
+	border-bottom:#ddd solid 1px;
+	background:#fff;
+	margin:auto;
+
+}
+.online_assessments_banner_inner_img {
+	width:100%;
+	min-height:320px; 
+	border-bottom:#ddd solid 1px;
+	background: url(../../../img/online-assessment-inner-sm.jpg) no-repeat bottom;
+	margin:auto;
+
+}
+
+
+.online_assessments_banner_inner_text {
+	width: 90%;
+	height: auto;
+	margin:auto auto auto 15px;
+	text-align:center;
+	}
+.online_assessments_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top:10px;
+	line-height: 35px;
+}
+
+
+.online_assessments_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Analytics Inner
+*************************/
+
+.analytics_banner_inner{
+	background:#f5f6f8;
+	min-height:250px; 
+	border-bottom:#ddd solid 1px;
+	padding-bottom:15px;
+}
+.analytics_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-analytics-sm1.jpg) no-repeat center;
+	width:100%;
+	height:185px; 
+	margin:auto;
+}
+
+.analytics_banner_inner_text{
+	float:left;
+	text-align:center;
+	width:90%;
+	
+	}
+.analytics_banner_inner h1 {
+	font-size: 30px;
+	padding-top:0px;
+	color: #000;
+	line-height:35px;
+}
+.analytics_banner_inner h4 {
+	font-size: 16px;
+	line-height: 24px;
+}	
+
+
+/*********************
+ Hire Interviewers Inner
+*********************/
+.hire_interviewers_banner_inner{
+	background:url(../../../img/sliders/revolution/banner-hire-interviewer-sm.jpg) no-repeat top center; 
+	min-height:320px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	padding-bottom:20px;
+
+	}
+
+.hire_interviewers_banner_inner_text{
+	text-align:center;
+	margin-left:4%;
+	width:90%;
+	padding-top:190px;
+	}
+.hire_interviewers_banner_inner_text h1 {
+	font-size: 28px;
+	padding-top:20px;
+	color: #000;
+	line-height:35px;
+	
+}
+.hire_interviewers_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/*****************************
+ Background Verification Inner
+*****************************/
+.background_verification_banner_inner{
+	background:#fff; 
+	min-height:250px;
+	width:100%;
+	}
+	
+.background_verification_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-background-verification-sm.jpg) no-repeat center bottom; 
+	min-height:270px;
+	border-bottom:#ddd solid 0px;
+	border-top: #ddd solid 1px;
+	width:100%;
+	}
+
+.background_verification_banner_inner_text{
+	width:90%;
+	text-align:center;
+	}
+	
+.background_verification_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	color: #000;
+	line-height:40px;
+	
+}
+.background_verification_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+
+/*************************
+   Career Website Inner
+*************************/
+
+.career_website_banner_inner{
+	background:#f5f6f8;
+	min-height:350px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	margin:auto;
+}
+.career_website_banner_inner_img{
+	width:70%;
+	height:auto;
+	clear:both;
+	margin-left:15%;
+	margin-top:25px;
+}
+
+.career_website_banner_inner_text{
+	width:90%;
+	text-align:center;
+	margin-right:5%;
+	}
+.career_website_banner_inner_text h1 {
+	font-size: 30px;
+	padding-top: 0px;
+	color: #000;
+	line-height:35px
+}
+.career_website_banner_inner_text h4 {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*********************
+ Call Conference Inner
+*********************/
+.call_conference_banner_inner{
+	background:#fff; 
+	min-height:330px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	margin:auto;
+
+	}
+	
+.call_conference_banner_inner_img{
+	background:url(../../../img/sliders/revolution/banner-call-conference-sm.jpg) no-repeat center; 
+	width:100%;
+	height:255px;
+	clear:both;
+	margin:auto;
+	}	
+
+.call_conference_banner_inner_text{
+	width:90%;
+	text-align:center;
+	margin-right:7%;
+	}
+	
+.call_conference_banner_inner_text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	color: #000;
+	line-height:35px;
+	
+}
+.call_conference_banner_inner_text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*************************
+   Features Home
+*************************/
+
+.features_home h1 {
+	font-size: 28px;
+	padding-top: 15px;
+	line-height: 35px;
+}
+.features_home h4 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight:400;
+}
+
+#headerImage {
+    background:url(../../../img/about-us-sm.jpg) no-repeat center center #fff;
+    height: 320px;
+    max-width: 100%;
+    width: 100%;
+}
+.play{background:url(../../../img/play-md.png) no-repeat;
+    font-size:0;
+	height:110px;
+	left:40%;
+	margin-top:-25px;
+	margin-left:-25px;
+	position:absolute;
+	top:50%;
+	width:110px;
+	margin-top:20px;
+	}
+
+
+
+/*************************
+  HIRE AGENCIES
+*************************/
+
+
+.hire-agencies-banner {
+    background:url(../../../img/sliders/revolution/talent-pool1-sm.jpg) no-repeat center top #3b3b3b;
+	width: 100%;
+	min-height:600px;
+	border-bottom: #ddd solid 1px;
+	border-top: #606060 solid 1px;
+	text-align: center;
+}
+
+
+.hire-agencies-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:30px 0 30px 20px;
+}
+.hire-agencies-banner-text h1 {
+	font-size: 30px;
+	padding-top:0px;
+	color:#fff;
+	padding-left:26px;
+	line-height:35px;
+}
+.hire-agencies-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+	color:#fff
+}
+
+/*************************
+  Toppers Database
+*************************/
+
+.toppers-database-banner {
+    background:url(../../../img/sliders/revolution/toppers-database.jpg) no-repeat center top #000;
+	width: 100%;
+	min-height:600px;
+	border-bottom: #ddd solid 1px;
+	border-top: #ddd solid 1px;
+	text-align: center;
+}
+
+
+.toppers-database-banner-text {
+	width: 100%;
+	text-align: center;
+	margin:auto;
+	color:#fff;
+	padding:20px 0 30px 20px;
+}
+.toppers-database-banner-text h1 {
+	font-size: 28px;
+	padding-top: 20px;
+	color:#fff;
+	padding-left:21px;
+}
+.toppers-database-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+	color:#fff
+}
+/*********************
+  social-recruiting
+*********************/
+
+.social-recruiting-banner {
+	min-height:550px; 
+	border-bottom:#ddd solid 1px;
+	width: 100%;	
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-sm.jpg) no-repeat center bottom;
+
+
+}
+
+
+.social-recruiting-banner-text {
+	width: 100%;
+	height: auto;
+	text-align:left;
+	padding-left:8%;
+}
+.social-recruiting-banner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 45px;
+}
+
+.social-recruiting-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/*********************
+  BULK EMAILS
+*********************/
+
+
+.bulk-emails-banner {
+	min-height:520px; 
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background:#fff;
+	margin:auto;
+}
+
+.bulk-emails-banner-img {
+	width: 100%;
+	height: 520px;
+	background: url(../../../img/sliders/revolution/send-bulk-emails-ats-sm.jpg) no-repeat center bottom;
+    margin:auto;
+}
+.bulk-emails-banner-text {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin-left:8%;
+	text-align:left;
+}
+.bulk-emails-banner-text h1 {
+	font-size: 28px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.bulk-emails-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+/*************************
+   Applicant Tracking
+*************************/
+
+
+.applicant-tracking-banner {
+	background:url(../../../img/sliders/revolution/hire-agencies-sm.jpg) no-repeat center bottom; 
+	min-height:620px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+
+.applicant-tracking-banner-text {
+	margin-left:10px;
+    text-align:left;
+	width:100%;
+}
+.applicant-tracking-banner-text h1 {
+    font-size: 28px;
+	padding-top: 10px;
+	line-height: 25px;
+}
+.applicant-tracking-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+.testimonials-border{
+	border-right:#ddd solid 0px !important;
+	height:112px !important;
+	
+	}
+.testimonial-padding{
+	padding-left:13px;
+	}
+
+
+
+/*********************************
+   Applicant Tracking Inner Page
+*********************************/
+
+
+.applicant-tracking-inner-page-banner {
+	background:#fff; 
+	min-height:500px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+	border-top: #ddd solid 1px;
+}
+.applicant-tracking-inner-page-banner-img {
+	background:url(../../../img/sliders/revolution/hire-agencies-sm.jpg) no-repeat center bottom; 
+	min-height:620px;
+	border-bottom:#ddd solid 1px;
+	width:100%;
+	background-size: cover;
+}
+.applicant-tracking-inner-page-banner-text {
+	margin-left:10px;
+    text-align:center;
+	width:100%;
+}
+.applicant-tracking-inner-page-banner-text h1 {
+    font-size: 30px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+.applicant-tracking-inner-page-banner-text h4 {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+/*********************
+  social-recruiting Inner Page
+*********************/
+
+.social-recruiting-inner-page-banner {
+width: 100%;
+	min-height: 550px;
+	float: left;
+	background: url(../../../img/sliders/revolution/social-media-for-recruitment-sm.jpg) no-repeat center bottom;
+
+}
+
+
+.social-recruiting-inner-page-banner-text {
+	width: 100%;
+	height: auto;
+	text-align:center;
+	
+}
+.social-recruiting-inner-page-banner-text h1 {
+	font-size: 30px;
+	padding-top: 10px;
+	line-height: 35px;
+}
+
+.social-recruiting-inner-page-banner-text h4 {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+/*************************
+   Key Features
+*************************/
+.key_features{
+	width:70%;
+	height:auto;
+	margin:auto;
+	font-weight: 200;
+	}
+.border-right{ 
+    border-right:#ddd solid 0px;
+	margin-top:45px;
+	height:150px;
+	float:left;
+	margin-right: 20px;
+	display:none;
+	}
+	
+		.page-container{ margin-top:135px;}
+		
+		
+		.bottom-form-box{
+	width:80%;
+	margin-left:0px;
+	margin-right: 50px;
+	
+	}
+.bottom-form{
+    float:left;
+	width:100%;
+	margin-right:10px;
+	margin-bottom:15px;
+	clear:both;
+  }
+  
+.bottom-form-btn{
+	float: none;
+width: 100%;
+
+text-align: center;
+margin: auto auto 0px auto;
+	
+	}
+.testimonials-margin{ margin-bottom:50px;}	
+}
+
+

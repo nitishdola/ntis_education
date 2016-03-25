@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admit/add
+Disallow: /certificates
+Disallow: /certificate/add
+Disallow: /exam-dates/add
+Disallow: /exams
+Disallow: /results/add
+Disallow: /results/admin-view
+Disallow: /cgi-bin/
+Disallow: /tmp/
