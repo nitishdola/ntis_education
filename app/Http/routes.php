@@ -22,7 +22,7 @@ Route::get('auth/login', ['as' => 'login', 'uses' => 'Auth\AuthController@getLog
 Route::post('auth/login', ['as' => 'postLogin', 'uses' => 'Auth\AuthController@postLogin']);
 Route::get('auth/logout',['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 
-Route::get('admin',[ 'as' => 'admin_home','uses' => 'HomeController@index']);
+Route::get('administrator',[ 'as' => 'admin_home','uses' => 'HomeController@admin']);
 
 Route::get('/',[ 'as' => 'home_path','uses' => 'HomeController@index']);
 Route::get('home',[ 'as' => 'home_path2','uses' => 'HomeController@index']);
