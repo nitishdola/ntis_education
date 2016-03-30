@@ -29,7 +29,7 @@
 					</div>
 					<div class="col-md-12">
 						
-						<h3>⁠⁠⁠NTIS Selection Test Result</h3>
+						<h3>NTIS Selection Test Result</h3>
 						<h5>Examination Date : {{date('d/m/Y', strtotime($res[0]->name))}}</h5>
 						<h5>Limited Seats</h5>
 						<h5 style="text-decoration:underline; font-weight:bold">Last Date of Admission : {{date('d/m/Y', strtotime($res[0]->admission_last_date))}}</h5>

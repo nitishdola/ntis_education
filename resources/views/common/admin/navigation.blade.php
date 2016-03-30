@@ -31,6 +31,15 @@
             <li><a href="{{ route('result_admin_view_path') }}">View result(ADMIN)</a></li>
           </ul> 
         </li>
+
+        <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-retweet
+"></i><span>Offers</span> <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ route('offer_add_path') }}">Add</a></li>
+            <li><a href="{{ route('offer_view_path') }}">View All</a></li>
+          </ul> 
+        </li>
+
       </ul>
     </div>
     <!-- /container --> 

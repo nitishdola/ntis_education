@@ -35,6 +35,13 @@ Route::get('courses-offered',[ 'as' => 'courses_path', 'uses' => 'CoursesControl
 Route::get('course/add',[ 'as' => 'courses_add_path', 'uses' => 'CoursesController@create']);
 Route::post('course/add', 'CoursesController@store');
 
+Route::get('offers/add',[ 'middleware' => 'auth','as' => 'offer_add_path', 'uses' => 'OffersController@create']);
+Route::post('offers/add',[ 'middleware' => 'auth','as' => 'offer_store_path', 'uses' => 'OffersController@store']);
+
+Route::get('offers',[ 'as' => 'offer_view_path', 'uses' => 'OffersController@index']);
+//Route::get('offers/edit/{num}',[ 'as' => 'offer_edit_path', 'uses' => 'OffersController@edit']);
+Route::get('offers/destroy/{num}',[ 'as' => 'offer_destroy_path', 'uses' => 'OffersController@destroy']);
+
 
 Route::get('certificates/add',[ 'as' => 'certificate_add_path', 'uses' => 'CertificatesController@create']);
 Route::get('certificates/edit',[ 'as' => 'certificate_edit_path', 'uses' => 'CertificatesController@edit']);
