@@ -27,7 +27,7 @@ Route::get('administrator',[ 'as' => 'admin_home','uses' => 'HomeController@admi
 Route::get('/',[ 'as' => 'home_path','uses' => 'HomeController@index']);
 Route::get('home',[ 'as' => 'home_path2','uses' => 'HomeController@index']);
 Route::get('about-us',['as' => 'about_path', 'uses' => 'PagesController@about']);
-Route::get('apply-online',['as' => 'online_form_path', 'uses' => 'PagesController@apply_online']);
+
 Route::get('contact-us',[ 'as' => 'contact_path', 'uses' => 'PagesController@contact']);
 Route::post('contact-us','MessagesController@send');
 Route::get('courses-offered',[ 'as' => 'courses_path', 'uses' => 'CoursesController@index']);
@@ -63,6 +63,8 @@ Route::get('course/diploma-computer-hardware-technology', ['as' => 'dcht_path', 
 Route::get('course/advanced-diploma-compute-hardware-networking-technology', ['as' => 'adchnt_path', 'uses' => 'PagesController@adchnt']);
 Route::get('course/professional-diploma-computer-hardware-technology', ['as' => 'pdcht_path', 'uses' => 'PagesController@pdcht']);
 Route::get('course/post-graduate-diploma-computer-application', ['as' => 'pgdca_path', 'uses' => 'PagesController@pgdca']);
+
+Route::get('api-get-course-info', ['as' => 'api_get_course_info', 'uses' => 'PagesController@get_course_info']);
 
 Route::get('admit/add', ['middleware' => 'auth', 'as' => 'admit_add_path', 'uses' => 'AdmitsController@create']);
 Route::post('admit/add', ['middleware' => 'auth', 'uses' => 'AdmitsController@store']);
@@ -101,3 +103,27 @@ Route::get('res', [ 'uses' => 'ResultsController@admin_search', 'middleware' => 
 Route::post('res', ['uses' => 'ResultsController@search_result']);
 Route::get('results-pdf', [  'uses' => 'ResultsController@api_get_all_result']);
 
+Route::get('apply-online',['as' => 'apply.online', 'uses' => 'ApplicationsController@apply_online']);
+Route::post('apply-online',['as' => 'applied.online', 'uses' => 'ApplicationsController@post_online']);
+
+Route::get('applications', ['middleware' => 'auth','as' => 'applications.view_all', 'uses' => 'ApplicationsController@view_applications']);
+
+Route::get('application-view/{num}', ['middleware' => 'auth','as' => 'application.view', 'uses' => 'ApplicationsController@viewApplication']);
+
+Route::post('application-process', ['middleware' => 'auth','as' => 'application.process', 'uses' => 'ApplicationsController@processApplication']);
+
+Route::get('application-reject/{num}', ['middleware' => 'auth','as' => 'application.reject', 'uses' => 'ApplicationsController@rejectApplication']);
+
+Route::get('accepted-applications', ['middleware' => 'auth','as' => 'applications.accepted.all', 'uses' => 'ApplicationsController@view_accepted_applications']);
+Route::get('application-view-print/{num}', ['middleware' => 'auth','as' => 'application.view.print', 'uses' => 'ApplicationsController@viewApplicationPrint']);
+
+
+Route::get('search-applications/admin', ['middleware' => 'auth','as' => 'application.search.admin', 'uses' => 'ApplicationsController@search_applications_admin']);
+Route::get('search-applications/result/admin', ['middleware' => 'auth','as' => 'application.search.admin.result', 'uses' => 'ApplicationsController@search_applications_admin_result']);
+
+Route::get('application-submit', ['middleware' => 'auth','as' => 'application.submit', 'uses' => 'ApplicationsController@application_submit']);
+Route::post('application-submit', ['middleware' => 'auth','as' => 'branch.submit', 'uses' => 'ApplicationsController@branch_submit']);
+
+Route::get('branch-applications', ['middleware' => 'auth','as' => 'branch.applications', 'uses' => 'ApplicationsController@branch_applications']);
+
+Route::get('add-installment', [ 'uses' => 'InstallmentsController@create', 'as' => 'installment.add', 'middleware' => 'auth']);

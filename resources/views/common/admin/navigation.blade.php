@@ -32,11 +32,20 @@
           </ul> 
         </li>
 
-        <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-retweet
-"></i><span>Offers</span> <b class="caret"></b></a>
+        <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Offers</span> <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="{{ route('offer_add_path') }}">Add</a></li>
             <li><a href="{{ route('offer_view_path') }}">View All</a></li>
+          </ul> 
+        </li>
+
+
+         <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Applications </span> <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ route('applications.view_all') }}">Fresh Applications</a></li>
+            <li><a href="{{ route('applications.accepted.all') }}">Accepted Applications</a></li>
+            <li><a href="{{ route('application.submit') }}"> Application Submit</a></li>
+            <li><a href="{{ route('branch.applications') }}"> View Branch Applications</a></li>
           </ul> 
         </li>
 

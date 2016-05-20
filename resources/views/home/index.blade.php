@@ -166,3 +166,11 @@
 <!-- END PAGE CONTAINER -->
 		
 @stop
+
+@if(isset($_GET['apply_success']))
+@section('page_scripts')
+<script>
+alert(' Applied Succssfully !');
+</script>
+@stop
+@endif

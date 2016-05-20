@@ -38,6 +38,7 @@
                 </li>
                 
                 <li class="{{ Request::is('results/search') ? 'active' : '' }}"><a id="A2" href="{{ route('admission_result_path') }}" itemprop="url">Selection result</a></li>
+                <li class="{{ Request::is('apply-online') ? 'active' : '' }}"><a id="A2" href="{{ route('apply.online') }}" itemprop="url">Apply</a></li>
                 <li class="{{ Request::is('contact-us') ? 'active' : '' }}"><a id="A3" href="{{ route('contact_path') }}" itemprop="url">Contact</a></li>
             </ul>
         </div>

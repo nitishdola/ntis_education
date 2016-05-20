@@ -75,5 +75,12 @@ class PagesController extends Controller
     public function track() {
         return view('pages.track');
     }
+
+    public function get_course_info() {
+        if(isset($_GET['course_id']) && $_GET['course_id'] != '') {
+            $course_id = $_GET['course_id'];
+            return Course::whereId($course_id)->first();
+        }
+    }
 }
 

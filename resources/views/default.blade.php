@@ -25,7 +25,7 @@
     <meta name="twitter:domain" content="NTIS Education">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet"
         type="text/css" />
     <link rel="stylesheet" href="{{ asset('staticassets/plugins/revolution_slider/css/rs-stylebcbe.css?222') }}"
         media="screen">
@@ -36,7 +36,8 @@
     <link href="{{ asset('staticassets/css/custombcbe.css?222') }}" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="{{ asset('staticassets/plugins/bootstrap-select/bootstrap-select.min.css') }}" />
     <link  rel="shortcut icon" href="faviconc4ca.ico?1" />
-     <link rel="stylesheet" type="text/css" href="{{ asset('staticassets/css/pages/portfolio698d.css?111') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('staticassets/css/pages/portfolio698d.css?111') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('zebra_datepicker/css/bootstrap.css') }}" />
      
     <style>
         .block
@@ -84,6 +85,31 @@
     @include('common.header')
      <!-- BEGIN PAGE CONTAINER -->
     <div class="page-container">
+        <div class="row">
+          <section class="content"> 
+          @if (Session::has('message') || Session::has('alert-info'))
+            <div class="alert alert-info alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fa fa-info"></i>
+                {{ Session::get('message')}} {{ Session::get('alert-info')}}
+            </div>
+          @endif
+
+          @if (Session::has('alert-warning'))
+            <div class="alert alert-warning alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fa fa-warning"></i>{{ Session::get('alert-warning')}}
+            </div>
+          @endif
+
+          @if (Session::has('alert-success'))
+            <div class="alert alert-success alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fa fa-check"></i>{{ Session::get('alert-success')}}
+            </div>
+          @endif
+        </section><!-- /.content -->
+      </div>
         @yield('content')
     </div>
     @include('common/footer')
@@ -95,7 +121,7 @@
     
     <script src="{{ asset('staticassets/plugins/jquery-1.10.2.min.js') }}" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}" type="text/javascript"></script>
     <script type="text/javascript" src="{{ asset('staticassets/plugins/hover-dropdown.js') }}"></script>
     <script type="text/javascript" src="{{ asset('staticassets/plugins/back-to-top.js') }}"></script>
     <!-- END CORE PLUGINS -->
@@ -105,7 +131,7 @@
     <script src="{{ asset('staticassets/plugins/bootstrap-modal/js/bootstrap-modal.js') }}" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js" type="text/javascript"></script>
-
+    <script src="{{ asset('zebra_datepicker/javascript/zebra_datepicker.js') }}" type="text/javascript"></script>
     <!-- END CORE PLUGINS -->
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
     <script src="{{ asset('staticassets/scripts/app.js') }}"></script>
@@ -121,5 +147,15 @@
         });
     </script>
     @yield('page_scripts')
+    <script>
+        $('.date-pick-year').Zebra_DatePicker({
+            view: 'years',
+            format: 'd-m-Y',
+            direction: -1
+        });
+        $('.apply-date').Zebra_DatePicker({
+            direction : ["{{ date('Y-m-d', strtotime('-20 days', strtotime(date('Y-m-d')))) }}", false]
+        });
+    </script>
 </body>
 </html>

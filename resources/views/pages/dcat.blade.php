@@ -65,6 +65,8 @@
 			<h4><i class="fa fa-check-circle"></i> D.T.P(Full Package with page maker, Corel Draw, Photoshop, GIST etc)</h4>
 			<h4><i class="fa fa-check-circle"></i> Bilinguals Package(Assamese,Bengali,Hindi, Bodo etc)</h4>
 			<h4><i class="fa fa-check-circle"></i> Fundamentals of Tally</h4>
+			<h4><i class="fa fa-check-circle"></i> Web Page Designing (HTML,DHTML & Front Page )</h4>
+			<h4><i class="fa fa-check-circle"></i> Concept of multimedia and E-Commerce</h4>
 		</div>
 	</div>
 </div>

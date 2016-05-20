@@ -13,10 +13,13 @@
 <link href="{{ asset('admin/css/style.css') }}" rel="stylesheet">
 <link href="{{ asset('admin/css/pages/dashboard.css') }}" rel="stylesheet">
 <link href="{{ asset('admin/css/zebra_default.css') }}" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ asset('zebra_datepicker/css/default.css') }}" />
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+@yield('Styles')
 </head>
 <body>
 @include('common.admin.header')
@@ -24,6 +27,33 @@
 <div class="main">
   	<div class="main-inner">
     	<div class="container">
+        
+        <div class="row">
+          <section class="content">
+          @if (Session::has('message') || Session::has('alert-info'))
+            <div class="alert alert-info alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fa fa-info"></i>
+                {{ Session::get('message')}} {{ Session::get('alert-info')}}
+            </div>
+          @endif
+
+          @if (Session::has('alert-warning'))
+            <div class="alert alert-warning alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fa fa-warning"></i>{{ Session::get('alert-warning')}}
+            </div>
+          @endif
+
+          @if (Session::has('alert-success'))
+            <div class="alert alert-success alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <i class="icon fa fa-check"></i>{{ Session::get('alert-success')}}
+            </div>
+          @endif
+        </section><!-- /.content -->
+      </div>
+
     		@yield('content')
     	</div>
    </div>
@@ -52,12 +82,23 @@
  
 <script src="{{ asset('admin/js/base.js') }}"></script> 
 <script src="{{ asset('admin/js/zebra/zebra_datepicker.js') }}"></script> 
-
+<script src="{{ asset('zebra_datepicker/javascript/zebra_datepicker.js') }}" type="text/javascript"></script>
 <script>  
 jQuery(document).ready(function () {
   $('input.datepicker').Zebra_DatePicker();
 });
 </script>
 
+@yield('Scripts')
+<script>
+  $('.date-pick-year').Zebra_DatePicker({
+      view: 'years',
+      format: 'd-m-Y',
+      direction: -1
+  });
+  $('.apply-date').Zebra_DatePicker({
+      //direction : ["{{ date('Y-m-d', strtotime('-20 days', strtotime(date('Y-m-d')))) }}", false]
+  });
+</script>
 </body>
 </html>   
