@@ -129,7 +129,7 @@ class ApplicationsController extends Controller
         $data['branch_apply'] = 1;
         $data['processed'] = 1;
         Application::create($data);
-        return Redirect::route('home_path', array('apply_success' => 1))->with('message', 'Application submitted successfully !');
+        return Redirect::route('branch.applications')->with('message', 'Application submitted successfully !');
     }
 
     public function branch_applications() {
