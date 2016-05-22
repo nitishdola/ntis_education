@@ -127,3 +127,7 @@ Route::post('application-submit', ['middleware' => 'auth','as' => 'branch.submit
 Route::get('branch-applications', ['middleware' => 'auth','as' => 'branch.applications', 'uses' => 'ApplicationsController@branch_applications']);
 
 Route::get('add-installment', [ 'uses' => 'InstallmentsController@create', 'as' => 'installment.add', 'middleware' => 'auth']);
+Route::post('add-installment', [ 'uses' => 'InstallmentsController@store', 'as' => 'installment.submit', 'middleware' => 'auth']);
+Route::get('installment-search', [ 'uses' => 'InstallmentsController@search', 'as' => 'installment.search', 'middleware' => 'auth']);
+Route::get('installment-search-result', [ 'uses' => 'InstallmentsController@search_result', 'as' => 'installment.search_result', 'middleware' => 'auth']);
+Route::get('view-installment/{num}', [ 'uses' => 'InstallmentsController@show', 'as' => 'installment.view', 'middleware' => 'auth']);

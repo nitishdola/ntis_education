@@ -24,7 +24,7 @@ padding: 5px 10px;
 @section('content')
 
 <div class="page-header">
-	<h1>Add a certificate</h1>
+	<h1>Add a Installment</h1>
 	<div class="headerdivider">
 	</div>
 </div>
@@ -40,7 +40,7 @@ padding: 5px 10px;
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for="textinput"></label>  
 				  <div class="col-md-6">
-				  	<input class="btn btn-success" type="submit" value="Add Certificate">
+				  	<input class="btn btn-success" type="submit" value="Add Installment">
 				  </div>
 				</div>
 

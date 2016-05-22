@@ -14,6 +14,8 @@
 <link href="{{ asset('admin/css/pages/dashboard.css') }}" rel="stylesheet">
 <link href="{{ asset('admin/css/zebra_default.css') }}" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="{{ asset('zebra_datepicker/css/default.css') }}" />
+<link rel="stylesheet" type="text/css" href="{{ asset('bootstrap-select-1.10.0/dist/css/bootstrap-select.min.css') }}" />
+
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -83,9 +85,12 @@
 <script src="{{ asset('admin/js/base.js') }}"></script> 
 <script src="{{ asset('admin/js/zebra/zebra_datepicker.js') }}"></script> 
 <script src="{{ asset('zebra_datepicker/javascript/zebra_datepicker.js') }}" type="text/javascript"></script>
+<script src="{{ asset('bootstrap-select-1.10.0/dist/css/bootstrap-select.min.js') }}" type="text/javascript"></script>
+
 <script>  
 jQuery(document).ready(function () {
   $('input.datepicker').Zebra_DatePicker();
+   $('.selectpicker').selectpicker();
 });
 </script>
 

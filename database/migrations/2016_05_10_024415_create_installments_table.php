@@ -14,6 +14,9 @@ class CreateInstallmentsTable extends Migration
     {
         Schema::create('installments', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('application_id', false, true);
+            $table->decimal('paid_amount');
+            $table->date('pay_date');
             $table->timestamps();
         });
     }
