@@ -48,6 +48,13 @@
             <li><a href="{{ route('branch.applications') }}"> View Branch Applications</a></li>
           </ul> 
         </li>
+        <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Installment </span> <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ route('installment.add') }}">Add</a></li>
+            <li><a href="{{ route('installment.search') }}">Search</a></li>
+          </ul> 
+        </li>
+        
 
       </ul>
     </div>
