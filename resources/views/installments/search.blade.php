@@ -25,12 +25,12 @@
 
 		{!! Form::open(array('method' => 'get', 'route' => 'installment.search_result', 'class' => "form-horizontal")) !!}
 			<fieldset>
-				<div class="control-group {{ $errors->has('application_id') ? 'has-error' : ''}}"> 
-				  {!! Form::label('application_id', 'Select Student', array('class' => "control-label")) !!} 
+				<div class="control-group {{ $errors->has('branch_application_id') ? 'has-error' : ''}}"> 
+				  {!! Form::label('branch_application_id', 'Select Student', array('class' => "control-label")) !!} 
 				  <div class="controls">
-				  	{!! Form::select('application_id', $applications, null, ['class' => ' form-control input-md', 'data-live-search' => "true", 'id' => 'applications', 'autocomplete' => 'off',  'title' => 'Select Student',]) !!}
+				  	{!! Form::select('branch_application_id', $branch_applications, null, ['class' => ' form-control input-md', 'data-live-search' => "true", 'id' => 'applications', 'autocomplete' => 'off',  'title' => 'Select Student',]) !!}
 				  </div>
-				  {!! $errors->first('application_id', '<span class="help-inline">:message</span>') !!}
+				  {!! $errors->first('branch_application_id', '<span class="help-inline">:message</span>') !!}
 				</div>
 
 				<div class="control-group {{ $errors->has('name') ? 'has-error' : ''}}"> 
@@ -60,7 +60,7 @@
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for="textinput"></label>  
 				  <div class="col-md-6">
-				  	<input class="btn btn-success" type="submit" value="Add Installment">
+				  	<input class="btn btn-success" type="submit" value="Search">
 				  </div>
 				</div>
 

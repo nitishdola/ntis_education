@@ -105,37 +105,4 @@ class ApplicationsController extends Controller
         $results = Application::where($where)->paginate(20);
         return view('applications.search_applications_admin_result', compact('results'));
     }
-
-    public function application_submit() {
-        $courses = [''=>'Select Course'] + Course::orderBy('name')->lists('name', 'id')->toArray();
-        return view('applications.application_submit', compact('courses'));
-    }
-
-    public function branch_submit(Request $request) {
-        $validator = Validator::make($data = $request->all(), Application::$rules);
-        if ($validator->fails())
-          return Redirect::back()->withErrors($validator)->withInput()->with('message', 'Some fields has errors. Please correct it and then try again');
-        
-        if ($request->hasFile('photo')) {
-            if ($request->file('photo')->isValid()){
-                $img_path = 'uploads/photos/'.date('Y-m-d');
-                $destination_path = public_path( $img_path );
-                $fileName = strtolower(str_replace(' ', '-', $request->name)).'-'.time().'_ntis.'.$request->file('photo')->getClientOriginalExtension();
-                $request->file('photo')->move($destination_path, $fileName);
-                $data['photo'] = $img_path.'/'.$fileName;
-            }
-        }
-        $data['dob'] = date('Y-m-d H:i:s', strtotime($request->dob));
-        $data['branch_apply'] = 1;
-        $data['processed'] = 1;
-        Application::create($data);
-        return Redirect::route('branch.applications')->with('message', 'Application submitted successfully !');
-    }
-
-    public function branch_applications() {
-        $results = Application::where('processed', 1)->where('status', 1)->where('branch_apply', 1)->with('course')->paginate(30);
-
-        return view('applications.branch_applications', compact('results'));
-    }
-
 }

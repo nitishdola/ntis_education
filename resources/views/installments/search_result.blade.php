@@ -38,6 +38,9 @@
 			<th>
 				Details
 			</th>
+			<th>
+				Edit
+			</th>
 		</tr>
 		</thead>
 		<tbody>
@@ -47,10 +50,10 @@
 				{{ $k+1 }}
 			</td>
 			<td>
-				{{$r->application['name']}}
+				{{$r->branch_application['name']}}
 			</td>
 			<td>
-				 {{$r->application['father_name']}}
+				 {{$r->branch_application['father_name']}}
 			</td>
 			<td>
 				 {{$r->pay_date}}
@@ -60,7 +63,11 @@
 			</td>
 		
 			<td>
-				 <a href="{{route('installment.view', $r->application['id'])}}"><i class="fa fa-pencil-square-o"></i>View All Installment Details</a>
+				 <a href="{{route('installment.view', $r->branch_application['id'])}}"><i class="fa fa-pencil-square-o"></i>View All Installment Details</a>
+			</td>
+
+			<td>
+				 <a href="{{route('installment.edit', $r->id)}}"><i class="fa fa-pencil-square-o"></i>EDIT</a>
 			</td>
 			
 		</tr>

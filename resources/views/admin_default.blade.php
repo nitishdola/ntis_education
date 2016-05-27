@@ -81,6 +81,7 @@
 <script src="{{ asset('admin/js/excanvas.min.js') }}"></script> 
 <script src="{{ asset('admin/js/chart.min.js') }}" type="text/javascript"></script> 
 <script src="{{ asset('admin/js/bootstrap.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
  
 <script src="{{ asset('admin/js/base.js') }}"></script> 
 <script src="{{ asset('admin/js/zebra/zebra_datepicker.js') }}"></script> 
@@ -90,7 +91,7 @@
 <script>  
 jQuery(document).ready(function () {
   $('input.datepicker').Zebra_DatePicker();
-   $('.selectpicker').selectpicker();
+   //$('.selectpicker').selectpicker();
 });
 </script>
 

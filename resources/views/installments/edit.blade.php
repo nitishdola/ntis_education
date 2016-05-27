@@ -13,13 +13,13 @@
 		    {!! session('status') !!}
 		@endif
 
-		{!! Form::open(array('class' => "form-horizontal")) !!}
+		{!! Form::model($installment, array('class' => "form-horizontal")) !!}
 			<fieldset>
 				@include('installments._form')
 				<div class="form-group">
 				  <label class="col-md-4 control-label" for="textinput"></label>  
 				  <div class="col-md-6">
-				  	<input class="btn btn-success" type="submit" value="Add Installment">
+				  	<input class="btn btn-success" type="submit" value="Update Installment">
 				  </div>
 				</div>
 

@@ -121,13 +121,26 @@ Route::get('application-view-print/{num}', ['middleware' => 'auth','as' => 'appl
 Route::get('search-applications/admin', ['middleware' => 'auth','as' => 'application.search.admin', 'uses' => 'ApplicationsController@search_applications_admin']);
 Route::get('search-applications/result/admin', ['middleware' => 'auth','as' => 'application.search.admin.result', 'uses' => 'ApplicationsController@search_applications_admin_result']);
 
-Route::get('application-submit', ['middleware' => 'auth','as' => 'application.submit', 'uses' => 'ApplicationsController@application_submit']);
-Route::post('application-submit', ['middleware' => 'auth','as' => 'branch.submit', 'uses' => 'ApplicationsController@branch_submit']);
+Route::get('application-submit', ['middleware' => 'auth','as' => 'application.submit', 'uses' => 'BranchApplicationsController@application_submit']);
+Route::post('application-submit', ['middleware' => 'auth','as' => 'branch.submit', 'uses' => 'BranchApplicationsController@branch_submit']);
 
-Route::get('branch-applications', ['middleware' => 'auth','as' => 'branch.applications', 'uses' => 'ApplicationsController@branch_applications']);
+Route::get('branch-applications', ['middleware' => 'auth','as' => 'branch.applications', 'uses' => 'BranchApplicationsController@branch_applications']);
+
+Route::get('remove-branch-applications', ['middleware' => 'auth','as' => 'disable.branch.applications', 'uses' => 'BranchApplicationsController@disable']);
+
+Route::get('api-get-student-info', ['middleware' => 'auth','as' => 'branch.application.info', 'uses' => 'BranchApplicationsController@branch_application_info']);
+
 
 Route::get('add-installment', [ 'uses' => 'InstallmentsController@create', 'as' => 'installment.add', 'middleware' => 'auth']);
 Route::post('add-installment', [ 'uses' => 'InstallmentsController@store', 'as' => 'installment.submit', 'middleware' => 'auth']);
+
+Route::get('edit-installment/{num}', [ 'uses' => 'InstallmentsController@edit', 'as' => 'installment.edit', 'middleware' => 'auth']);
+Route::post('edit-installment/{num}', [ 'uses' => 'InstallmentsController@update', 'as' => 'installment.update', 'middleware' => 'auth']);
+
+
 Route::get('installment-search', [ 'uses' => 'InstallmentsController@search', 'as' => 'installment.search', 'middleware' => 'auth']);
 Route::get('installment-search-result', [ 'uses' => 'InstallmentsController@search_result', 'as' => 'installment.search_result', 'middleware' => 'auth']);
 Route::get('view-installment/{num}', [ 'uses' => 'InstallmentsController@show', 'as' => 'installment.view', 'middleware' => 'auth']);
+
+Route::get('installment/search/public', [ 'uses' => 'InstallmentsController@public_search', 'as' => 'installment.search.public']);
+Route::post('installment/search/public', [ 'uses' => 'InstallmentsController@public_search_result', 'as' => 'installment.search_result.public']);

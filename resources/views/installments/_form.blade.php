@@ -1,9 +1,9 @@
-<div class="control-group {{ $errors->has('application_id') ? 'has-error' : ''}}"> 
-  {!! Form::label('application_id', 'Select Student', array('class' => "control-label")) !!} 
+<div class="control-group {{ $errors->has('branch_application_id') ? 'has-error' : ''}}"> 
+  {!! Form::label('branch_application_id', 'Select Student', array('class' => "control-label")) !!} 
   <div class="controls">
-  	{!! Form::select('application_id', $applications, null, ['class' => ' form-control input-md', 'data-live-search' => "true", 'id' => 'applications', 'autocomplete' => 'off',  'title' => 'Select Student','required' => 'true']) !!}
+  	{!! Form::select('branch_application_id', $applications, null, ['class' => ' form-control input-md', 'data-live-search' => "true", 'id' => 'branch_application_id', 'autocomplete' => 'off',  'title' => 'Select Student','required' => 'true']) !!}
   </div>
-  {!! $errors->first('application_id', '<span class="help-inline">:message</span>') !!}
+  {!! $errors->first('branch_application_id', '<span class="help-inline">:message</span>') !!}
 </div>
 
 <div class="control-group {{ $errors->has('paid_amount') ? 'has-error' : ''}}"> 

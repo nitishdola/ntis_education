@@ -2,7 +2,7 @@
   <div class="subnavbar-inner">
     <div class="container">
       <ul class="mainnav">
-        <li class="active"><a href="index.html"><i class="icon-dashboard"></i><span>Dashboard</span> </a> </li>
+        <li class="active"><a href="{{ route('admin_home') }}"><i class="icon-dashboard"></i><span>Dashboard</span> </a> </li>
         <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Certificate</span> <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="{{ route('certificate_add_path') }}">Add</a></li>
